@@ -24,7 +24,7 @@ const config: Config = {
   onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-  organizationName: 'Penggeor', // Usually your GitHub org/user name.
+  organizationName: 'wukaipeng-dev', // Usually your GitHub org/user name.
   projectName: 'ken', // Usually your repo name.
   deploymentBranch: 'gh-pages',
   trailingSlash: false,
@@ -117,7 +117,7 @@ const config: Config = {
           label: '🦋 阅读',
         },
         {
-          href: 'https://github.com/Penggeor/ken',
+          href: 'https://github.com/wukaipeng-dev/ken',
           position: 'right',
           className: 'header-github-link',
           'aria-label': 'GitHub repository',
@@ -144,7 +144,7 @@ const config: Config = {
             },
             {
               label: 'GitHub',
-              href: 'https://github.com/penggeor',
+              href: 'https://github.com/wukaipeng-dev',
             },
             {
               label: 'X (Twitter)',

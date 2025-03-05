@@ -7,7 +7,7 @@
 1. 拉取代码：
 
 ```shell
-git clone git@github.com:Penggeor/ken.git
+git clone git@github.com:wukaipeng-dev/ken.git
 ```
 
 2. 安装依赖：
@@ -32,7 +32,7 @@ npm run start
 点击下方按钮 👇 快速部署到你的 Vercel 账号上
 
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FPenggeor%2Fken)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fwukaipeng-dev%2Fken)
 
 
 

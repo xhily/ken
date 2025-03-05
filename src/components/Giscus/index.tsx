@@ -12,7 +12,7 @@ export default function GiscusComponent() {
 
   return (
     <Giscus
-      repo='Penggeor/ken'
+      repo='wukaipeng-dev/ken'
       repoId={customFields.GISCUS_REPO_ID as string}
       category='General'
       categoryId={customFields.GISCUS_CATEGORY_ID as string} // E.g. id of "General"
