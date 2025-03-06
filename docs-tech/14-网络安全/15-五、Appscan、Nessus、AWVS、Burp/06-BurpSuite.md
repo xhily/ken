@@ -47,11 +47,11 @@ BurpSuite 和 [Xray](https://wukaipeng.com/technique/net-security/05/02) 机制�
 
 在 在[攻防环境搭建](https://wukaipeng.com/technique/net-security/03/02)一章 [工具：Burp Suite](https://wukaipeng.com/technique/net-security/03/02#%E5%B7%A5%E5%85%B7burp-suite) 中我们已经讲解了局部代理，也就是设置 Firefox 代理将流量转发到 BurpSuite 的 8080 端口，另外我们也可以直接装一个插件去方便切换代理：
 
-![](http://img.wukaipeng.com/2023/0910-085625-image-20230910085625707.png)
+![](https://img.wukaipeng.com/2023/0910-085625-image-20230910085625707.png)
 
 添加我们的自定义代理
 
-![](http://img.wukaipeng.com/2023/0910-085842-image-20230910085842444.png)
+![](https://img.wukaipeng.com/2023/0910-085842-image-20230910085842444.png)
 
 
 
@@ -61,11 +61,11 @@ BurpSuite 和 [Xray](https://wukaipeng.com/technique/net-security/05/02) 机制�
 
 这里我们以 Mac 为例： > System Settings > Network > Wi-Fi > Details
 
-![](http://img.wukaipeng.com/2023/0910-091604-image-20230910091604583.png)
+![](https://img.wukaipeng.com/2023/0910-091604-image-20230910091604583.png)
 
 接着在 Proxies 中设置我们的全局代理：
 
-![](http://img.wukaipeng.com/2023/0910-091811-image-20230910091811106.png)
+![](https://img.wukaipeng.com/2023/0910-091811-image-20230910091811106.png)
 
 
 
@@ -82,11 +82,11 @@ ipconfig getifaddr en0
 
 在 BurpSuite 上监听本机地址：
 
-![](http://img.wukaipeng.com/2023/0910-094408-image-20230910094407922.png)
+![](https://img.wukaipeng.com/2023/0910-094408-image-20230910094407922.png)
 
 然后在手机上将代理改为**手动**，地址为我们获取到的电脑 IP 地址，端口为 8080。
 
-![](http://img.wukaipeng.com/2023/0910-093230-image-20230910093229885.png)
+![](https://img.wukaipeng.com/2023/0910-093230-image-20230910093229885.png)
 
 
 
@@ -112,7 +112,7 @@ Burp Proxy 是其核心功能，通过 Proxy 我们可以拦截、查看、修�
 
 
 
-![](http://img.wukaipeng.com/2023/0910-105539-image-20230910105539190.png)
+![](https://img.wukaipeng.com/2023/0910-105539-image-20230910105539190.png)
 
 
 
@@ -122,17 +122,17 @@ Burp Proxy 是其核心功能，通过 Proxy 我们可以拦截、查看、修�
 
 在 Request interception rules 可以添加拦截规则，去匹配我们想要的请求。
 
-![](http://img.wukaipeng.com/2023/0910-110107-image-20230910110107284.png)
+![](https://img.wukaipeng.com/2023/0910-110107-image-20230910110107284.png)
 
 
 
 #### 响应拦截设置
 
-![](http://img.wukaipeng.com/2023/0910-111034-image-20230910111034412.png)
+![](https://img.wukaipeng.com/2023/0910-111034-image-20230910111034412.png)
 
 #### 修改返回消息
 
-![](http://img.wukaipeng.com/2023/0910-111342-image-20230910111342393.png)
+![](https://img.wukaipeng.com/2023/0910-111342-image-20230910111342393.png)
 
 - Unhide hidden form fields：显示 form 表单中隐藏字段
   - Prominently highlight unhidden fields：高亮显示 form 表单中隐藏字段
@@ -150,15 +150,15 @@ Burp Proxy 是其核心功能，通过 Proxy 我们可以拦截、查看、修�
 
 设置正则表达式自动替换请求和响应中的内容。
 
-![](http://img.wukaipeng.com/2023/0910-125121-image-20230910125120578.png)
+![](https://img.wukaipeng.com/2023/0910-125121-image-20230910125120578.png)
 
 比如我们把请求中的邮箱都替换为 `wukaipeng@burpsuite.com`
 
-![](http://img.wukaipeng.com/2023/0910-125815-image-20230910125815626.png)
+![](https://img.wukaipeng.com/2023/0910-125815-image-20230910125815626.png)
 
 在任意的地方输入一个邮箱，都会被修改：
 
-![](http://img.wukaipeng.com/2023/0910-130118-image-20230910130118757.png)
+![](https://img.wukaipeng.com/2023/0910-130118-image-20230910130118757.png)
 
 ### 转发请求：Request handling
 
@@ -193,7 +193,7 @@ Burp 和 Xray 联动的意义可以通过
 
 ## 添加 SSL
 
-![](http://img.wukaipeng.com/2023/0910-131135-image-20230910131134890.png)
+![](https://img.wukaipeng.com/2023/0910-131135-image-20230910131134890.png)
 
 当我们打开 `https://wukaipeng.com` 的时候，会发现 FireFox 会提示这样的安全警告，这是因为在 HTTPS 通信中，需要安装 CA 证书。
 
@@ -203,15 +203,15 @@ Burp 和 Xray 联动的意义可以通过
 
 我们已 Mac 为例导入 CA 证书，首先打开 Mac 自带的 Keychain Access，在菜单项选择 Import Items
 
-![](http://img.wukaipeng.com/2023/0910-160950-iShot_2023-09-10_15.51.41.png)
+![](https://img.wukaipeng.com/2023/0910-160950-iShot_2023-09-10_15.51.41.png)
 
 然后导入下载好的 CA 证书，我们是把证书放在 System 下面，导入成功后在 Certificates 分类中可以看到我们刚刚导入的 PortSwigger CA 证书。
 
-![](http://img.wukaipeng.com/2023/0910-161007-iShot_2023-09-10_15.54.09.png)
+![](https://img.wukaipeng.com/2023/0910-161007-iShot_2023-09-10_15.54.09.png)
 
 接着在 Firefox 打开设置，找到 Certificate Manager，然后导入证书：
 
-![](http://img.wukaipeng.com/2023/0910-161308-image-20230910161307839.png)
+![](https://img.wukaipeng.com/2023/0910-161308-image-20230910161307839.png)
 
 导入之后重启一下 FireFox，这个时候重新访问 `https://wukaipeng.com` 就不会有安全警告了。
 
@@ -229,15 +229,15 @@ Burp Target 由三部分组成：
 
 可以非常细粒度地设置拦截内容，包括协议、主机、端口，以及文件
 
-![](http://img.wukaipeng.com/2023/0917-103650-image-20230917103649772.png)
+![](https://img.wukaipeng.com/2023/0917-103650-image-20230917103649772.png)
 
 ### 站点地图
 
-![](http://img.wukaipeng.com/2023/0917-104526-image-20230917104526066.png)
+![](https://img.wukaipeng.com/2023/0917-104526-image-20230917104526066.png)
 
 ### 工具
 
-![](http://img.wukaipeng.com/2023/0918-083415-image-20230918083414918.png)
+![](https://img.wukaipeng.com/2023/0918-083415-image-20230918083414918.png)
 
 #### Analyze tools
 
@@ -245,7 +245,7 @@ Burp Target 由三部分组成：
 
 分析结果：
 
-![](http://img.wukaipeng.com/2023/0918-073058-image-20230918073058040.png) 
+![](https://img.wukaipeng.com/2023/0918-073058-image-20230918073058040.png) 
 
 包含：
 
@@ -268,7 +268,7 @@ Live passive crawl from Proxy: 实时被动爬虫
 
 Live audit from Proxy：实时审计
 
-![](http://img.wukaipeng.com/2023/0918-084917-image-20230918084917241.png)
+![](https://img.wukaipeng.com/2023/0918-084917-image-20230918084917241.png)
 
 ##### 被动扫描
 
@@ -306,7 +306,7 @@ Burp 在检测过程中，采用各个技术来验证漏洞是否存在，比如
 
 
 
-![](http://img.wukaipeng.com/2023/0919-075520-image-20230919075519572.png)
+![](https://img.wukaipeng.com/2023/0919-075520-image-20230919075519572.png)
 
 
 
@@ -314,19 +314,19 @@ Burp 在检测过程中，采用各个技术来验证漏洞是否存在，比如
 
 我们使用 DVWA 的 Brute Force 模块作为测试：
 
-![](http://img.wukaipeng.com/2023/0920-073934-image-20230920073933893.png)
+![](https://img.wukaipeng.com/2023/0920-073934-image-20230920073933893.png)
 
 拦截到请求之后，发送到 Intruder
 
-![](http://img.wukaipeng.com/2023/0919-082204-image-20230919082204477.png)
+![](https://img.wukaipeng.com/2023/0919-082204-image-20230919082204477.png)
 
 替换点
 
-![](http://img.wukaipeng.com/2023/0919-082414-image-20230919082413909.png)
+![](https://img.wukaipeng.com/2023/0919-082414-image-20230919082413909.png)
 
 
 
-![](http://img.wukaipeng.com/2023/0919-083518-image-20230919083518720.png)
+![](https://img.wukaipeng.com/2023/0919-083518-image-20230919083518720.png)
 
 密码字典是预设的密码集合，比如：
 
@@ -341,7 +341,7 @@ qazwsx
 
 设置响应中是否有匹配正则的字符串：
 
-![](http://img.wukaipeng.com/2023/0920-074524-image-20230920074523478.png)
+![](https://img.wukaipeng.com/2023/0920-074524-image-20230920074523478.png)
 
 常见登录页面可爆破的情况：
 
@@ -389,7 +389,7 @@ F-->B
 
 多次重放请求。
 
-![](http://img.wukaipeng.com/2023/0921-072924-image-20230921072924210.png)
+![](https://img.wukaipeng.com/2023/0921-072924-image-20230921072924210.png)
 
 
 

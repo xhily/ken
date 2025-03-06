@@ -194,7 +194,7 @@ console.log(obj2) // { c: 2 }
 
 JS 中，所有变量都是存储在栈内存中的，而对象是保存在堆内存中的。
 
-![stack and heap](http://img.wukaipeng.com/2023/0817-065506-image-20230817065505907.png)
+![stack and heap](https://img.wukaipeng.com/2023/0817-065506-image-20230817065505907.png)
 
 ### String
 
@@ -279,7 +279,7 @@ let str = '你好'
 str = '楷鹏'
 ```
 
-![Immutable](http://img.wukaipeng.com/2023/0817-073924-image-20230817073924174.png)
+![Immutable](https://img.wukaipeng.com/2023/0817-073924-image-20230817073924174.png)
 
 
 

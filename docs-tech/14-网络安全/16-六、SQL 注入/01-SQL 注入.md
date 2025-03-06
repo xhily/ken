@@ -43,7 +43,7 @@ SQL 注入条件：
 
 在 DVWA 靶场环境中，可以在 SQL Injection 练习：
 
-![](http://img.wukaipeng.com/2023/0922-080220-image-20230922080219805.png)
+![](https://img.wukaipeng.com/2023/0922-080220-image-20230922080219805.png)
 
 ## 注入方式
 
@@ -105,7 +105,7 @@ ERROR 1054 (42S22): Unknown column '3' in 'order clause'
 
 构造 `union` 语句获取数据库名称和版本：`1' union select database(), version() ;#`
 
-![](http://img.wukaipeng.com/2023/0922-085205-image-20230922085204940.png)
+![](https://img.wukaipeng.com/2023/0922-085205-image-20230922085204940.png)
 
 🌟 数据库  `information_schema` 
 
@@ -279,9 +279,9 @@ ERROR 1105 (HY000): XPATH syntax error: '~5f4dcc3b5aa765d61d8327deb882cf9'
 
 返回信息只有 true 或者 false，没有其他信息，比如：
 
-![](http://img.wukaipeng.com/2023/1007-083346-image-20231007083346432.png)
+![](https://img.wukaipeng.com/2023/1007-083346-image-20231007083346432.png)
 
-![](http://img.wukaipeng.com/2023/1007-083414-image-20231007083414517.png)
+![](https://img.wukaipeng.com/2023/1007-083414-image-20231007083414517.png)
 
 存在返回 `User ID exists in the database.`，不存在返回 `User ID is MISSING from the database.`
 
@@ -565,7 +565,7 @@ mysql> show databases;select user, password from users;
 
 二次注入指数据库在存入数据时做了校验和处理，但是在取出数据时没有做校验和处理，导致的二次注入。
 
-![](http://img.wukaipeng.com/2023/1010-085957-image-20231010085956378.png)
+![](https://img.wukaipeng.com/2023/1010-085957-image-20231010085956378.png)
 
 ### 宽字节注入
 
@@ -601,17 +601,17 @@ docker pull area39/pikachu
 docker run -d -p  8081:80 --name="pikachu" area39/pikachu
 ```
 
-![](http://img.wukaipeng.com/2023/1011-075508-image-20231011075507145.png)
+![](https://img.wukaipeng.com/2023/1011-075508-image-20231011075507145.png)
 
-![](http://img.wukaipeng.com/2023/1011-082149-image-20231011082149432.png)
+![](https://img.wukaipeng.com/2023/1011-082149-image-20231011082149432.png)
 
 拦截请求，可以看到，已经注入成功，请求返回了所有数据：
 
-![](http://img.wukaipeng.com/2023/1012-075115-image-20231012075115796.png)
+![](https://img.wukaipeng.com/2023/1012-075115-image-20231012075115796.png)
 
 后续注入同 Union 注入
 
-![](http://img.wukaipeng.com/2023/1012-080932-image-20231012080932404.png)
+![](https://img.wukaipeng.com/2023/1012-080932-image-20231012080932404.png)
 
 ### HTTP header 和 Cookie 注入
 
@@ -639,21 +639,21 @@ MySQL 支持写文件。条件：
 
 `$_POST['a']` 是指获取 HTTP 请求中的 POST 的参数 `a`
 
-![](http://img.wukaipeng.com/2023/1012-085131-image-20231012085131302.png)
+![](https://img.wukaipeng.com/2023/1012-085131-image-20231012085131302.png)
 
 我们也可以在靶场后端看到这个文件确实被注入了：
 
-![](http://img.wukaipeng.com/2023/1012-085222-image-20231012085222224.png)
+![](https://img.wukaipeng.com/2023/1012-085222-image-20231012085222224.png)
 
 接着使用 HackBar 来请求 POST 并注入参数 `a`：
 
-![](http://img.wukaipeng.com/2023/1012-085943-image-20231012085942942.png)
+![](https://img.wukaipeng.com/2023/1012-085943-image-20231012085942942.png)
 
 
 
 或者使用蚁剑：
 
-![](http://img.wukaipeng.com/2023/1013-083921-image-20231013083919924.png)
+![](https://img.wukaipeng.com/2023/1013-083921-image-20231013083919924.png)
 
 ## 注入绕过
 

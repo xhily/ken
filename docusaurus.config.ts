@@ -95,11 +95,11 @@ const config: Config = {
           to: 'blog',
           label: '🌌 博客',
         },
-        {
-          to: 'weekly',
-          label: '🌃 周刊',
-          position: 'left',
-        },
+        // {
+        //   to: 'weekly',
+        //   label: '🌃 周刊',
+        //   position: 'left',
+        // },
         {
           to: 'technique',
           label: '🦄 技术',
@@ -279,29 +279,29 @@ const config: Config = {
         ...ContentParam,
       },
     ],
-    [
-      '@docusaurus/plugin-content-blog',
-      {
-        id: 'blog-weekly',
-        path: 'blog-weekly',
-        blogTitle: '周刊',
-        routeBasePath: 'weekly',
-        blogSidebarTitle: '✨',
-        blogSidebarCount: 'ALL',
-        authorsMapPath: '../author.yaml',
-        onUntruncatedBlogPosts: 'ignore',
-        // component: '@theme/BlogPostItem',
-        feedOptions: {
-          type: 'all',
-          title: '「DevingWeekly | 效率周刊」',
-          copyright: '版权 © 2025 吴楷鹏',
-          description:
-            '每周更新，精选高效率工具，用技术差重构时间 ROI （feedId:60244255202015232+userId:69676769296017408）',
-        },
-        remarkPlugins: [remarkMath],
-        rehypePlugins: [rehypeKatex],
-      },
-    ],
+    // [
+    //   '@docusaurus/plugin-content-blog',
+    //   {
+    //     id: 'blog-weekly',
+    //     path: 'blog-weekly',
+    //     blogTitle: '周刊',
+    //     routeBasePath: 'weekly',
+    //     blogSidebarTitle: '✨',
+    //     blogSidebarCount: 'ALL',
+    //     authorsMapPath: '../author.yaml',
+    //     onUntruncatedBlogPosts: 'ignore',
+    //     // component: '@theme/BlogPostItem',
+    //     feedOptions: {
+    //       type: 'all',
+    //       title: '「DevingWeekly | 效率周刊」',
+    //       copyright: '版权 © 2025 吴楷鹏',
+    //       description:
+    //         '每周更新，精选高效率工具，用技术差重构时间 ROI （feedId:60244255202015232+userId:69676769296017408）',
+    //     },
+    //     remarkPlugins: [remarkMath],
+    //     rehypePlugins: [rehypeKatex],
+    //   },
+    // ],
     'plugin-image-zoom',
   ],
 

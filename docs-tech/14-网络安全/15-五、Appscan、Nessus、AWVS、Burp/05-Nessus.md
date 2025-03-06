@@ -16,23 +16,23 @@ Nessus 安装之后不太一样，启动之后前端是在浏览器打开的。
 
 启动之后选择 Essential，输入激活码，之后就会开始下载插件：
 
-![](http://img.wukaipeng.com/2023/0910-060830-image-20230910060829779.png)
+![](https://img.wukaipeng.com/2023/0910-060830-image-20230910060829779.png)
 
 下载完毕：
 
-![](http://img.wukaipeng.com/2023/0910-061451-image-20230910061450996.png)
+![](https://img.wukaipeng.com/2023/0910-061451-image-20230910061450996.png)
 
 
 
 点击右上角 New Scan，选择 Advanced Scan：
 
-![](http://img.wukaipeng.com/2023/0910-062018-image-20230910062018751.png)
+![](https://img.wukaipeng.com/2023/0910-062018-image-20230910062018751.png)
 
-![](http://img.wukaipeng.com/2023/0910-062238-image-20230910062238343.png)
+![](https://img.wukaipeng.com/2023/0910-062238-image-20230910062238343.png)
 
 端口这里切记要改为 `1-65535`，即全端口扫描，否则默认扫描只会扫常见的端口：
 
-![](http://img.wukaipeng.com/2023/0910-063056-image-20230910063056504.png)
+![](https://img.wukaipeng.com/2023/0910-063056-image-20230910063056504.png)
 
 主机扫描的两种方式：
 

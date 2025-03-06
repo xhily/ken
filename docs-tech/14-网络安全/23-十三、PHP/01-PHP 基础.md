@@ -104,7 +104,7 @@ vim /opt/homebrew/etc/php/8.0/php.ini
 
 右键 run 起来
 
-![](http://img.wukaipeng.com/2023/12/18-084720-72iHWN-image-20231218084719595.png)
+![](https://img.wukaipeng.com/2023/12/18-084720-72iHWN-image-20231218084719595.png)
 
 如果遇到了 `reason: Can't assign requested address`，尝试在插件设置中将 `localhost` 改为 `127.0.0.1`，因为 `localhost` 可能解析不到，所以直接用 IP 地址。
 
@@ -157,7 +157,7 @@ if (strpos($_SERVER['HTTP_USER_AGENT'], 'Firefox') == true) {
 </p>
 ```
 
-![](http://img.wukaipeng.com/2023/12/30-213648-x3jxWz-image-20231230213647377.png)
+![](https://img.wukaipeng.com/2023/12/30-213648-x3jxWz-image-20231230213647377.png)
 
 
 

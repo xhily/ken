@@ -180,7 +180,7 @@ Connection: Keep-Al ive
 1. GET
 2. HEAD：和 GET 请求一样，除了没有响应正文。一般用于<u>测试资源的有效性、可访问性和最近改变</u>。
 
-![head request](http://img.wukaipeng.com/2023/0827-210501-image-20230827210500670.png)
+![head request](https://img.wukaipeng.com/2023/0827-210501-image-20230827210500670.png)
 
 > 一般扫描接口用的就是 HEAD 请求，因为没有响应正文，速度比较快。
 

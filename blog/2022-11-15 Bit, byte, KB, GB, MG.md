@@ -10,9 +10,11 @@ $$$
 1bit \times 8 = 1byte
 $$$
 
+
 $$$
 1byte \times 1024 = 1KB (kilobyte)
 $$$
+
 
 $$$
 1KB \times 1024 = 1MB (megabyte)

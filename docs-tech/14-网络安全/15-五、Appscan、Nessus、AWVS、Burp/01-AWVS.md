@@ -43,7 +43,7 @@ AWVS版本：14.7.220425114
 
 
 
-![](http://img.wukaipeng.com/2023/0906-071825-image-20230906071824687.png)
+![](https://img.wukaipeng.com/2023/0906-071825-image-20230906071824687.png)
 
 
 🔗 推荐扫描测试站点：[http://testphp.vulnweb.com/search.php?test=query](http://testphp.vulnweb.com/search.php?test=query)

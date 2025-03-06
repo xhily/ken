@@ -264,7 +264,7 @@ Vowel 元音：Your tongue didn’t touch lips, teeth, or roof of your mouth.  �
 
 👉 sung 发音到了喉咙部分
 
-![Mouth cavity](http://img.wukaipeng.com/2023/0816-063409-Illu01_head_neck.jpg)
+![Mouth cavity](https://img.wukaipeng.com/2023/0816-063409-Illu01_head_neck.jpg)
 
 
 
@@ -326,11 +326,11 @@ Verb aspect: all the possible ways of expressing something in time.  在时间�
 
 排列组合就有以下 16 种时态：
 
-![03-Verb 动词-01](http://img.wukaipeng.com/2023/0820-092708-03-Verb%20%E5%8A%A8%E8%AF%8D-01.png)
+![03-Verb 动词-01](https://img.wukaipeng.com/2023/0820-092708-03-Verb%20%E5%8A%A8%E8%AF%8D-01.png)
 
-![03-Verb 动词-02](http://img.wukaipeng.com/2023/0820-092708-03-Verb%20%E5%8A%A8%E8%AF%8D-02.png)
+![03-Verb 动词-02](https://img.wukaipeng.com/2023/0820-092708-03-Verb%20%E5%8A%A8%E8%AF%8D-02.png)
 
-![03-Verb 动词-03](http://img.wukaipeng.com/2023/0820-092708-03-Verb%20%E5%8A%A8%E8%AF%8D-03.png)
+![03-Verb 动词-03](https://img.wukaipeng.com/2023/0820-092708-03-Verb%20%E5%8A%A8%E8%AF%8D-03.png)
 
 
 

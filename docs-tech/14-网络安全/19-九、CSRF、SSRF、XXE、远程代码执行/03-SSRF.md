@@ -12,7 +12,7 @@ slug: /net-security/09/03
 
 
 
-![](http://img.wukaipeng.com/2023/11/04-102221-image-20231104102221145.png)
+![](https://img.wukaipeng.com/2023/11/04-102221-image-20231104102221145.png)
 
 ### 原理
 
@@ -107,7 +107,7 @@ http://www.xxx.com/image.php?image=gopher://127.0.0.1:2233/_test (向2233端口�
 - 十六进制：0x7f.0.0.1
 - 十进制：2130706433
 
-![](http://img.wukaipeng.com/2023/11/05-091343-image-20231105091343351.png)
+![](https://img.wukaipeng.com/2023/11/05-091343-image-20231105091343351.png)
 
 🚔 限制只为 HTTP 协议，不能是 `file` 等其他协议
 
@@ -130,21 +130,21 @@ http://www.xxx.com/image.php?image=gopher://127.0.0.1:2233/_test (向2233端口�
 
 打开 SSRF 模块：
 
-![](http://img.wukaipeng.com/2023/11/05-094651-image-20231105094651038.png)
+![](https://img.wukaipeng.com/2023/11/05-094651-image-20231105094651038.png)
 
 观察 URL：
 
-![](http://img.wukaipeng.com/2023/11/05-094611-image-20231105094611484.png)
+![](https://img.wukaipeng.com/2023/11/05-094611-image-20231105094611484.png)
 
 > 注意，这里 Pikachu 平台有一个 bug，url 参数双写了 `/vul`，要去掉一个
 
 我们可以修改该链接：
 
-![](http://img.wukaipeng.com/2023/11/05-094901-image-20231105094901129.png)
+![](https://img.wukaipeng.com/2023/11/05-094901-image-20231105094901129.png)
 
 也可以用其他协议：
 
-![](http://img.wukaipeng.com/2023/11/05-094957-image-20231105094957393.png)
+![](https://img.wukaipeng.com/2023/11/05-094957-image-20231105094957393.png)
 
 ### SSRF（file_get_contents）
 
@@ -156,20 +156,20 @@ http://www.xxx.com/image.php?image=gopher://127.0.0.1:2233/_test (向2233端口�
 
 `http://YOUR_ADDRESS_IP:PORT/vul/ssrf/ssrf_fgc.php?file=http://127.0.0.1/vul/ssrf/ssrf_info/info2.php`
 
-![](http://img.wukaipeng.com/2023/11/05-101842-image-20231105101842735.png)
+![](https://img.wukaipeng.com/2023/11/05-101842-image-20231105101842735.png)
 
 改为：
 
 `http://YOUR_IP_ADDRESS:PORT/vul/ssrf/ssrf_fgc.php?file=php://filter/resource=ssrf.php`
 
-![](http://img.wukaipeng.com/2023/11/05-101933-image-20231105101933538.png)
+![](https://img.wukaipeng.com/2023/11/05-101933-image-20231105101933538.png)
 
 这里其实我们已经得到了 `ssrf.php` 的文件，但是我们并不希望它被解析，而是希望拿到 `ssrf.php` 的源码，做法是先把它加密成 base64，然后再解密，修改 URL 为：
 
 `http://175.178.126.31:8083/vul/ssrf/ssrf_fgc.php?file=php://filter/read=convert.base64-
 encode/resource=ssrf.php`
 
-![](http://img.wukaipeng.com/2023/11/05-102212-image-20231105102212467.png)
+![](https://img.wukaipeng.com/2023/11/05-102212-image-20231105102212467.png)
 
 用 [Base64 解密工具](https://t.he3app.com/dt46) 解密得到：
 

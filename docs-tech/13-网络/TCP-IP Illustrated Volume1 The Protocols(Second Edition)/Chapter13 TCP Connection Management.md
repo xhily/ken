@@ -8,21 +8,21 @@ slug: /net/tcp-ip/13
 
 ## 13.2 TCP Connection Establishment and Termination
 
-![](http://img.wukaipeng.com/2023/0923-152843-image-20211207090926395.png)
+![](https://img.wukaipeng.com/2023/0923-152843-image-20211207090926395.png)
 
 ### 13.2.1 TCP Half-Close
 
-![](http://img.wukaipeng.com/2023/0923-152844-image-20211207181708996.png)
+![](https://img.wukaipeng.com/2023/0923-152844-image-20211207181708996.png)
 
 ### 13.2.2 Simultaneous Open and Close
 
 Simultaneous Open:
 
-![](http://img.wukaipeng.com/2023/0923-152844-image-20211207185139664.png)
+![](https://img.wukaipeng.com/2023/0923-152844-image-20211207185139664.png)
 
 Simultaneously Close:
 
-![](http://img.wukaipeng.com/2023/0923-152845-image-20211207185149233.png)
+![](https://img.wukaipeng.com/2023/0923-152845-image-20211207185149233.png)
 
 ### 13.2.3 Initial Sequence Number(ISN)
 

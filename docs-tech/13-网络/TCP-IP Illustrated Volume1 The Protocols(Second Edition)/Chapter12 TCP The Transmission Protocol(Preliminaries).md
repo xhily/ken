@@ -25,11 +25,11 @@ TCP is an error-correcting protocol which will cope with these problems above.
 
 Packet reordering and duplication solution
 
-![sequence number](http://img.wukaipeng.com/2023/0923-152739-sequence%20number.png)
+![sequence number](https://img.wukaipeng.com/2023/0923-152739-sequence%20number.png)
 
 Packet erasure(drops) solution:
 
-<img src="http://img.wukaipeng.com/2023/0923-152739-packet%20erasures(drops).png" alt="packet erasures(drops)" />
+<img src="https://img.wukaipeng.com/2023/0923-152739-packet%20erasures(drops).png" alt="packet erasures(drops)" />
 
 ---
 
@@ -56,7 +56,7 @@ Other issue:
 1. Receiver is slower than the sender. (Receiver will drop the packet because can’t dispose overwhelming packet from sender)
 2. Network infrastructure(e.g. routers in middle) can’t copy with rate of data the sender and receiver wish to use.
 
-![Consider](http://img.wukaipeng.com/2023/0923-152740-Consider.png)
+![Consider](https://img.wukaipeng.com/2023/0923-152740-Consider.png)
 
 ### 12.1.2 Windows of Packets and Sliding Windows
 
@@ -66,7 +66,7 @@ Other issue:
 
 :speech_balloon: Window is like canteen window which controls who be serviced and has three state: not yet service/servicing/serviced.
 
-![](http://img.wukaipeng.com/2023/0923-152740-%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20211122201720.jpg)
+![](https://img.wukaipeng.com/2023/0923-152740-%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20211122201720.jpg)
 
 Window can combat many problems: 
 
@@ -185,7 +185,7 @@ TCP will maintain a large sequence number in order to provide integral and corre
 
 ## 12.3 TCP Header and Encapsulation
 
-![](http://img.wukaipeng.com/2023/0923-152740-image-20211130094521130.png)
+![](https://img.wukaipeng.com/2023/0923-152740-image-20211130094521130.png)
 
 The length of TCP Header:
 
@@ -197,7 +197,7 @@ TCP Data is optional. Without TCP Data:
 - *Pure ACK* just to acknowledge the receive data.
 - *Window update* just to change the window size.
 
-![](http://img.wukaipeng.com/2023/0923-152741-image-20211130094526675.png)
+![](https://img.wukaipeng.com/2023/0923-152741-image-20211130094526675.png)
 
 Source Port & Destination Port + IP address: ***Socket***
 

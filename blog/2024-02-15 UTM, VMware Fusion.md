@@ -5,7 +5,7 @@ title: 不花一分钱，如何在 Mac 上跑 Windows（M1/M2 版）
 
 这是在 MacOS M1 上体验最新 Windows11 的效果：
 
-![](http://img.wukaipeng.com/2024/02/16-141107-GcAOad-image-20240216112510958.png)
+![](https://img.wukaipeng.com/2024/02/16-141107-GcAOad-image-20240216112510958.png)
 
 **VMware Fusion**，可以运行 Windows、Linux 系统，个人使用 licence 免费
 
@@ -21,7 +21,7 @@ Fusion 对 Windows11 支持非常好，不支持其他版本
 
 这里推荐 **UTM**，这是 UTM 运行 Windows7 的效果：
 
-![](http://img.wukaipeng.com/2024/02/16-141110-fQTSMS-image-20240216113429868.png)
+![](https://img.wukaipeng.com/2024/02/16-141110-fQTSMS-image-20240216113429868.png)
 
 
 
@@ -41,11 +41,11 @@ UTM 安装比较简单
 
 接着从 UTM 中下载对应配置文件 https://mac.getutm.app/gallery/
 
-![](http://img.wukaipeng.com/2024/02/16-114203-b8kslZ-image-20240216114203621.png)
+![](https://img.wukaipeng.com/2024/02/16-114203-b8kslZ-image-20240216114203621.png)
 
 下载之后是一个 .utm 后缀的文件，然后打开该文件
 
-![](http://img.wukaipeng.com/2024/02/16-114350-0BIAqS-image-20240216114350208.png)
+![](https://img.wukaipeng.com/2024/02/16-114350-0BIAqS-image-20240216114350208.png)
 
 打开之后需要改系统镜像路径
 
@@ -53,7 +53,7 @@ UTM 安装比较简单
 
 
 
-![](http://img.wukaipeng.com/2024/02/16-114624-j5OEoX-image-20240216114512243.png)
+![](https://img.wukaipeng.com/2024/02/16-114624-j5OEoX-image-20240216114512243.png)
 
 改后重新启动即可
 

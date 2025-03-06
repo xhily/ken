@@ -10,7 +10,7 @@ slug: /net-security/09/01
 
 
 
-![](http://img.wukaipeng.com/2023/11/03-080416-image-20231103080415904.png)
+![](https://img.wukaipeng.com/2023/11/03-080416-image-20231103080415904.png)
 
 
 
@@ -68,7 +68,7 @@ if( isset( $_GET[ 'Change' ] ) ) {
 - 仅用 Cookie 做校验
 - 参数确定
 
-![](http://img.wukaipeng.com/2023/11/03-084127-image-20231103084127381.png)
+![](https://img.wukaipeng.com/2023/11/03-084127-image-20231103084127381.png)
 
 在同一网页下，访问 `http://YOUR_IP_ADDRESS:PORT/vulnerabilities/csrf/?password_new=234&password_conf=234&Change=Change#` 就可以修改密码
 
@@ -113,7 +113,7 @@ if( isset( $_GET[ 'Change' ] ) ) {
 
 High 等级包含 Anti-CSRF 机制，每次访问的修改密码页面都会包含随机的 `user_token`：
 
-![](http://img.wukaipeng.com/2023/11/04-063905-image-20231104063905106.png)
+![](https://img.wukaipeng.com/2023/11/04-063905-image-20231104063905106.png)
 
 修改密码请求的参数会带上 `user_token`，那么 CSRF 第三个关键条件就破坏了，参数是不确定的：
 
@@ -159,7 +159,7 @@ generateSessionToken();
 
 在 XSS（Reflected）模块使用 `<img src=x OnerrOr=alert(document.cookie)>` 获取 cookie：
 
-![](http://img.wukaipeng.com/2023/11/04-064516-image-20231104064516537.png)
+![](https://img.wukaipeng.com/2023/11/04-064516-image-20231104064516537.png)
 
 
 
@@ -167,7 +167,7 @@ generateSessionToken();
 
 
 
-![](http://img.wukaipeng.com/2023/11/04-071749-image-20231104071748887.png)
+![](https://img.wukaipeng.com/2023/11/04-071749-image-20231104071748887.png)
 
 ## Pikachu
 
@@ -175,7 +175,7 @@ generateSessionToken();
 
 Get 请求例子很简单，和 DVWA 一样：
 
-![](http://img.wukaipeng.com/2023/11/04-075945-image-20231104075945273.png)
+![](https://img.wukaipeng.com/2023/11/04-075945-image-20231104075945273.png)
 
 ### POST
 
@@ -210,13 +210,13 @@ Get 请求例子很简单，和 DVWA 一样：
 
 
 
-![](http://img.wukaipeng.com/2023/11/04-082611-image-20231104082611857.png)
+![](https://img.wukaipeng.com/2023/11/04-082611-image-20231104082611857.png)
 
 上述 CSRF 的 POV 代码也可以直接让 Burp 生成：
 
-![](http://img.wukaipeng.com/2023/11/04-083217-image-20231104083217166.png)
+![](https://img.wukaipeng.com/2023/11/04-083217-image-20231104083217166.png)
 
-![](http://img.wukaipeng.com/2023/11/04-083242-image-20231104083242445.png)
+![](https://img.wukaipeng.com/2023/11/04-083242-image-20231104083242445.png)
 
 ## 防御
 

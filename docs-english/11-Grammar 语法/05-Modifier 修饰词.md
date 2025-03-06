@@ -81,11 +81,11 @@ an 只是为了方便发音，否则 a apple 发音不仅累，而且快速读�
 
 倭黑猩猩 🦍
 
-![The Leakey Foundation Rare bonobo behavior is photographic gold](http://img.wukaipeng.com/2023/0925-073554-%C2%A9-Christian-Ziegler-Wildlife-Photographer-of-the-Year-low-res-683x1024.jpg)
+![The Leakey Foundation Rare bonobo behavior is photographic gold](https://img.wukaipeng.com/2023/0925-073554-%C2%A9-Christian-Ziegler-Wildlife-Photographer-of-the-Year-low-res-683x1024.jpg)
 
 红毛猩猩 🦧
 
-![Orangutan](http://img.wukaipeng.com/2023/0925-075916-1o3iawhhf7_sumatran_orangutan_8.6.2012_Hero_and_Circle_image_XL_257636.jpg)
+![Orangutan](https://img.wukaipeng.com/2023/0925-075916-1o3iawhhf7_sumatran_orangutan_8.6.2012_Hero_and_Circle_image_XL_257636.jpg)
 
 ## Adverb 副词
 

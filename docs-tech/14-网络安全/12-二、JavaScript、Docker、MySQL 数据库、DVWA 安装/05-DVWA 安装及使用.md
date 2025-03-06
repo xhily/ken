@@ -64,11 +64,11 @@ docker rm dvwa
 - User: admin
 - Password: password
 
-![](http://img.wukaipeng.com/2023/0823-075851-image-20230823075850664.png)
+![](https://img.wukaipeng.com/2023/0823-075851-image-20230823075850664.png)
 
 
 
-![](http://img.wukaipeng.com/2023/0823-080151-image-20230823080151205.png)
+![](https://img.wukaipeng.com/2023/0823-080151-image-20230823080151205.png)
 
 
 
@@ -76,7 +76,7 @@ docker rm dvwa
 
 
 
-![](http://img.wukaipeng.com/2023/0823-080655-image-20230823080655409.png)
+![](https://img.wukaipeng.com/2023/0823-080655-image-20230823080655409.png)
 
 
 
