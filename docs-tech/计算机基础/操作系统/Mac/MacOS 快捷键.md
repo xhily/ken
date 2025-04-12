@@ -1,5 +1,5 @@
 ---
-slug: /os/mac/shortcut
+slug: /computer-science/os/mac/shortcut
 ---
 
 

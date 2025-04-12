@@ -1,5 +1,5 @@
 ---
-slug: /algorithm/kmp
+slug: /computer-science/algorithm/kmp
 ---
 
 KMP 算法比较难，用文字无法表述，看完下面两个视频，对 KMP 算法就有了基础的入门：
