@@ -1,5 +1,5 @@
 ---
-slug: /interview/knowledge/get-post
+slug: /interview/network/get-post
 ---
 
 👨‍🏫 考点：HTTP 协议、TCP/IP 协议

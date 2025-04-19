@@ -4,7 +4,7 @@ slug: /interview/git/reflog
 
 > 九瓴科技一面
 
-:::info 基本点
+:::note 基本点
 
 1. reflog 其实是 reference log 的缩写，相当于 git 操作的日志
 2. 可以通过 reflog 恢复删除的分支、提交的误操作
