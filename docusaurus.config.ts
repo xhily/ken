@@ -49,11 +49,9 @@ const FOOTER_LINKS = [
   {
     title: '联系方式',
     items: [
-      { label: '微信', href: 'https://wukaipeng.com/wechat' },
       { label: 'Email', href: 'mailto:wkpcoder@163.com' },
       { label: 'GitHub', href: 'https://github.com/wukaipeng-dev' },
       { label: 'X (Twitter)', href: 'https://twitter.com/x_wukaipeng' },
-      { label: '即刻', href: 'https://okjk.co/8FI5oD', 'aria-label': '即刻' },
     ],
   },
   {
@@ -98,50 +96,57 @@ const FOOTER_LINKS = [
 
 const config: Config = {
   ...SITE_CONFIG,
-  
+
   onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
   trailingSlash: false,
 
-  headTags: [{
-    tagName: 'link',
-    attributes: {
-      rel: 'preload',
-      href: '/fonts/MonaspaceRadonVarVF.woff2',
-      as: 'font',
-      type: 'font/woff2',
-      crossorigin: 'anonymous',
+  headTags: [
+    {
+      tagName: 'link',
+      attributes: {
+        rel: 'preload',
+        href: '/fonts/MonaspaceRadonVarVF.woff2',
+        as: 'font',
+        type: 'font/woff2',
+        crossorigin: 'anonymous',
+      },
     },
-  }],
+  ],
 
   customFields: {
     GISCUS_REPO_ID: process.env.GISCUS_REPO_ID,
     GISCUS_CATEGORY_ID: process.env.GISCUS_CATEGORY_ID,
   },
 
-  presets: [[
-    '@docusaurus/preset-classic',
-    {
-      docs: CONTENT_CONFIG,
-      blog: {
-        showReadingTime: true,
-        blogSidebarTitle: '✨',
-        blogSidebarCount: 'ALL',
-        onUntruncatedBlogPosts: 'ignore',
-        ...MATH_CONFIG,
-      },
-      theme: {
-        customCss: require.resolve('./src/css/custom.css'),
-      },
-    } satisfies PresetClassic.Options,
-  ]],
+  presets: [
+    [
+      '@docusaurus/preset-classic',
+      {
+        docs: CONTENT_CONFIG,
+        blog: {
+          showReadingTime: true,
+          blogSidebarTitle: '✨',
+          blogSidebarCount: 'ALL',
+          onUntruncatedBlogPosts: 'ignore',
+          ...MATH_CONFIG,
+        },
+        theme: {
+          customCss: require.resolve('./src/css/custom.css'),
+        },
+      } satisfies PresetClassic.Options,
+    ],
+  ],
 
-  stylesheets: [{
-    href: 'https://cdn.jsdelivr.net/npm/katex@0.13.24/dist/katex.min.css',
-    type: 'text/css',
-    integrity: 'sha384-odtC+0UGzzFL/6PNoE8rX/SPcQDXBJ+uRepguP4QkPCm2LBxH3FA3y+fKSiJ+AmM',
-    crossorigin: 'anonymous',
-  }],
+  stylesheets: [
+    {
+      href: 'https://cdn.jsdelivr.net/npm/katex@0.13.24/dist/katex.min.css',
+      type: 'text/css',
+      integrity:
+        'sha384-odtC+0UGzzFL/6PNoE8rX/SPcQDXBJ+uRepguP4QkPCm2LBxH3FA3y+fKSiJ+AmM',
+      crossorigin: 'anonymous',
+    },
+  ],
 
   themes: ['@docusaurus/theme-live-codeblock', '@docusaurus/theme-mermaid'],
 
@@ -185,15 +190,16 @@ const config: Config = {
   plugins: [
     'docusaurus-plugin-sass',
     'plugin-image-zoom',
-    ...['tech', 'english', 'book', 'class'].map(id => ([
+    ...['tech', 'english', 'book', 'class'].map((id) => [
       '@docusaurus/plugin-content-docs',
       {
         id: `docs-${id}`,
         path: `docs-${id}`,
-        routeBasePath: id === 'book' ? 'read' : id === 'tech' ? 'technique' : id,
+        routeBasePath:
+          id === 'book' ? 'read' : id === 'tech' ? 'technique' : id,
         ...CONTENT_CONFIG,
       },
-    ])),
+    ]),
   ],
 
   i18n: {
