@@ -15,22 +15,22 @@ const SITE_CONFIG = {
   organizationName: 'wukaipeng-dev',
   projectName: 'ken',
   deploymentBranch: 'gh-pages',
-} as const
+}
 
 // Content configuration
 const MATH_CONFIG = {
   remarkPlugins: [remarkMath],
   rehypePlugins: [rehypeKatex],
-} as const
+}
 
 const CONTENT_CONFIG = {
   sidebarPath: require.resolve('./sidebars.js'),
   showLastUpdateTime: true,
   ...MATH_CONFIG,
-} as const
+}
 
 // Theme configuration
-const NAVBAR_ITEMS = [
+const NAVBAR_ITEMS: PresetClassic.ThemeConfig['navbar']['items'] = [
   { to: 'blog', label: '🌌 博客' },
   { to: 'technique', label: '🦄 技术' },
   { to: 'class', label: '🐻‍❄️ 课程' },
@@ -43,9 +43,9 @@ const NAVBAR_ITEMS = [
     'aria-label': 'GitHub repository',
   },
   { type: 'search', position: 'right' },
-] as const
+]
 
-const FOOTER_LINKS = [
+const FOOTER_LINKS: PresetClassic.ThemeConfig['footer']['links'] = [
   {
     title: '联系方式',
     items: [
@@ -92,7 +92,7 @@ const FOOTER_LINKS = [
       },
     ],
   },
-] as const
+]
 
 const config: Config = {
   ...SITE_CONFIG,
