@@ -1,5 +1,5 @@
 ---
-slug: time
+slug: /time
 ---
 # 《为什么精英都是时间控》
 
