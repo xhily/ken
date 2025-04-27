@@ -13,6 +13,8 @@
   --ifm-color-primary-light: #000000;
   --ifm-color-primary-lighter: #000000;
   --ifm-color-primary-lightest: #000000;
+  --ifm-article-link-color: #3498db;
+  --ifm-article-link-hover-color: #2980b9;
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
@@ -24,6 +26,8 @@
   --ifm-color-primary-light: #ffffff;
   --ifm-color-primary-lighter: #ffffff;
   --ifm-color-primary-lightest: #ffffff;
+  --ifm-article-link-color: #6ab0de;
+  --ifm-article-link-hover-color: #8bc4ea;
 }
 
 .docusaurus-highlight-code-line {
@@ -167,4 +171,25 @@ div[class^=announcementBar_] {
   background: linear-gradient(35deg, var(--site-announcement-bar-stripe-color1), var(--site-announcement-bar-stripe-color2));
   font-size: 20px;
   font-weight: 700
+}
+
+/* Site link styles */
+article a {
+  color: var(--ifm-article-link-color);
+  transition: color 0.2s ease, text-decoration 0.2s ease;
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+}
+
+article a:hover {
+  color: var(--ifm-article-link-hover-color);
+}
+
+/* Link styles for dark mode */
+[data-theme='dark'] article a {
+  color: var(--ifm-article-link-color);
+}
+
+[data-theme='dark'] article a:hover {
+  color: var(--ifm-article-link-hover-color);
 }
