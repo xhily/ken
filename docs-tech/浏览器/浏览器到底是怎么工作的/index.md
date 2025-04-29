@@ -3,6 +3,8 @@ slug: /browser/how-browsers-work
 draft: true
 ---
 
+# 浏览器到底是怎么工作的
+
 本文档来自于 [How browsers work](https://web.dev/howbrowserswork/)
 
 作者是以色列 Web 开发工程师，多年研究浏览器，本文是其研究所得，她说：
