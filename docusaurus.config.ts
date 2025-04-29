@@ -31,8 +31,8 @@ const CONTENT_CONFIG = {
 
 // Theme configuration
 const NAVBAR_ITEMS: PresetClassic.ThemeConfig['navbar']['items'] = [
-  { to: 'blog', label: '🌌 博客' },
   { to: 'technique', label: '🦄 技术' },
+  { to: 'blog', label: '🌌 博客' },
   { to: 'class', label: '🐻‍❄️ 课程' },
   { to: 'english', label: '🐳 英语' },
   { to: 'read', label: '🦋 阅读' },
