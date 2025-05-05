@@ -32,11 +32,17 @@ npm init vite@latest
 项目生成后，执行：
 
 ```bash
-npm install
-npm run dev
+npm i
 ```
 
-在 `main.js` 文件中，添加如下代码：
+安装 Three.js 依赖：
+
+```bash
+npm i three
+npm i --save-dev @types/three
+```
+
+打开 `main.js` 文件，添加如下代码：
 
 ```js
 import * as THREE from 'three'
@@ -83,7 +89,37 @@ function animate() {
 animate()
 ```
 
-运行项目，可以看到一个正在旋转的绿色的正方体：
+修改 style.css 样式：
+
+```css
+* {
+  margin: 0;
+  padding: 0;
+}
+
+canvas {
+  display: block;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+}
+```
+
+在 `index.html` 中引用该样式：
+
+```html
+<link rel="stylesheet" href="/src/style.css" />
+```
+
+运行项目：
+
+```bash
+npm run dev
+```
+
+可以看到一个正在旋转的绿色的正方体：
 
 ![Rotated Box](https://img.wukaipeng.com//2025/04/23-173907-qDg1Ei-20250423173842_rec_-convert.gif)
 
