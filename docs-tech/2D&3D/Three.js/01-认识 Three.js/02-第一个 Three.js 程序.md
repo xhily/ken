@@ -2,9 +2,39 @@
 slug: /2d-3d/threejs/01/02
 ---
 
-使用 `npm init vite@latest` 初始化项目，选择 `vanilla` 模板。
+我们使用 Vite 来初始化我们项目：
 
-> 示例代码： https://github.com/wukaipeng-dev/threejs-demo/tree/main/01-startapp
+```bash
+npm init vite@latest`
+```
+
+Vite 提供了 Vue、React、Svelte 等框架以供选择，如果不需要任何框架，可以直接选择 `vanilla`。
+
+这里我们选择 `vanilla` 以及集成 TypeScript：
+
+```bash
+npm init vite@latest
+
+> npx
+> create-vite
+
+│
+◇  Project name:
+│  solar-system
+│
+◇  Select a framework:
+│  Vanilla
+│
+◇  Select a variant:
+│  TypeScript
+```
+
+项目生成后，执行：
+
+```bash
+npm install
+npm run dev
+```
 
 在 `main.js` 文件中，添加如下代码：
 
@@ -56,3 +86,5 @@ animate()
 运行项目，可以看到一个正在旋转的绿色的正方体：
 
 ![Rotated Box](https://img.wukaipeng.com//2025/04/23-173907-qDg1Ei-20250423173842_rec_-convert.gif)
+
+> 示例代码： https://github.com/wukaipeng-dev/threejs-demo/tree/main/01-startapp
