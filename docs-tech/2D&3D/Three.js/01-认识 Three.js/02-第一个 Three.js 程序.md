@@ -10,7 +10,7 @@ npm init vite@latest`
 
 Vite 提供了 Vue、React、Svelte 等框架以供选择，如果不需要任何框架，可以直接选择 `vanilla`。
 
-这里我们选择 `vanilla` 以及集成 TypeScript：
+这里我们选择 `vanilla` 并且集成 TypeScript：
 
 ```bash
 npm init vite@latest
@@ -42,9 +42,9 @@ npm i three
 npm i --save-dev @types/three
 ```
 
-打开 `main.js` 文件，添加如下代码：
+打开 `main.ts` 文件，添加如下代码：
 
-```js
+```typescript
 import * as THREE from 'three'
 
 // 创建场景
@@ -89,7 +89,7 @@ function animate() {
 animate()
 ```
 
-修改 style.css 样式：
+打开 `style.css`，修改样式：
 
 ```css
 * {
@@ -123,4 +123,18 @@ npm run dev
 
 ![Rotated Box](https://img.wukaipeng.com//2025/04/23-173907-qDg1Ei-20250423173842_rec_-convert.gif)
 
-> 示例代码： https://github.com/wukaipeng-dev/threejs-demo/tree/main/01-startapp
+打开 `main.ts`，增加自适应：
+
+```typescript
+// 监听窗口大小
+window.addEventListener('resize', () => {
+  // 更新渲染器大小
+  renderer.setSize(window.innerWidth, window.innerHeight)
+  // 更新相机宽高比
+  camera.aspect = window.innerWidth / window.innerHeight
+  // 更新相机
+  camera.updateProjectionMatrix()
+})
+```
+
+> 示例代码： https://github.com/wukaipeng-dev/threejs-demo/tree/main/01-getting-started/first-three.js-app
