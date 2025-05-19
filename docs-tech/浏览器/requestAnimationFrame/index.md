@@ -1,5 +1,6 @@
 ---
 slug: /browser/requestAnimationFrame
+title: 你好，requestAnimationFrame
 ---
 
 ## requestAnimationFrame 初相遇
@@ -122,7 +123,7 @@ requestAnimationFrame(timestamp => {
 
 掌握上面这些，就可以写一些简单的动画了，比如模拟某良心平台：
 
-<Video src="./ad.mp4" controls></Video>
+<video src="./ad.mp4" controls></video>
 
 ```html
 <!DOCTYPE html>
