@@ -11,7 +11,7 @@ requestAnimationFrame 由 3 个单词组成：
 - **animation** /ˌænɪˈmeɪʃn/：动画
 - **frame** /freɪm/：帧
 
-request ~ animation ~ frame：请求~动画~帧，HTML5 新增的浏览器 API。
+request \~ animation \~ frame：请求 \~ 动画 \~ 帧，HTML5 新增的浏览器 API。
 
 初次见到这个 API 时，会觉得丈二摸不着头脑，每个单词都懂，但组在一起怎么这么抽象，这个 API 是做什么的？
 
@@ -28,8 +28,7 @@ request ~ animation ~ frame：请求~动画~帧，HTML5 新增的浏览器 API�
 它是一种视觉上的错觉，**通过快速切换图片，让眼睛误以为图片在动**。
 
 制作动画，最简单的方式就是手翻画，比如下面画的诗人：
-
-<video src="./uIeuV9FsAd4.mp4" controls></video>
+<video src="/video/docs-tech/browser/requestAnimationFrame/uIeuV9FsAd4.mp4" controls style={{maxWidth: '100%'}}></video>
 
 > https://v.douyin.com/uIeuV9FsAd4/
 
@@ -51,9 +50,9 @@ FPS 是动画中非常重要的指标，它决定了动画的流畅度。
 
 - 24 FPS：每秒 24 帧，电影标准帧率，使画面看起来流畅且具有“电影感”。
 
-- 30 FPS~60 FPS（含以上）：每秒 30~60 帧，常见于电视节目与一般录影设备。
+- 30 FPS \~ 60 FPS（含以上）：每秒 30 \~ 60 帧，常见于电视节目与一般录影设备。
 
-- 120 FPS~240FPS：每秒 120~240 帧，电竞、VR、运动摄影等，以提升流畅度与即时感。
+- 120 FPS \~ 240 FPS：每秒 120 \~ 240 帧，电竞、VR、运动摄影等，以提升流畅度与即时感。
 
 
 ## 浏览器动画
@@ -66,7 +65,7 @@ FPS 是动画中非常重要的指标，它决定了动画的流畅度。
 
 我们先来看一个例子：
 
-<video src="./setTimeout-60fps.mp4" controls></video>
+<video src="/video/docs-tech/browser/requestAnimationFrame/setTimeout-60fps.mp4" controls style={{maxWidth: '100%'}}></video>
 
 这是用 `setTimeout` 实现的动画，时间间隔为 16ms，也就是 60 FPS。
 
@@ -74,7 +73,7 @@ FPS 是动画中非常重要的指标，它决定了动画的流畅度。
 
 但是，当我把显示器刷新频率调到 30Hz 时：
 
-<video src="./setTimeout-30fps.mp4" controls></video>
+<video src="/video/docs-tech/browser/requestAnimationFrame/setTimeout-30fps.mp4" controls style={{maxWidth: '100%'}}></video>
 
 你可能会觉得头痒，这动画不还是一样的吗？
 
@@ -82,7 +81,7 @@ FPS 是动画中非常重要的指标，它决定了动画的流畅度。
 
 换成 `requestAnimationFrame` 就不一样的，当显示器刷新率为 30Hz 时：
 
-<video src="./requestAnimationFrame-30fps.mp4" controls></video>
+<video src="/video/docs-tech/browser/requestAnimationFrame/requestAnimationFrame-30fps.mp4" controls style={{maxWidth: '100%'}}></video>
 
 可以看到，动画和显示器的刷新频率保持一致，水位拉齐。
 
@@ -123,7 +122,7 @@ requestAnimationFrame(timestamp => {
 
 掌握上面这些，就可以写一些简单的动画了，比如模拟某良心平台：
 
-<video src="./ad.mp4" controls></video>
+<video src="/video/docs-tech/browser/requestAnimationFrame/ad.mp4" controls style={{maxWidth: '100%'}}></video>
 
 ```html
 <!DOCTYPE html>
