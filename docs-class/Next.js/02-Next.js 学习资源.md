@@ -7,7 +7,9 @@ title: Next.js 学习资源大全，良心推荐
 
 学习 Next.js，最权威的还是官方文档：https://nextjs.org/
 
-不过 Next.js 官方文档不支持多语言，国内有社区翻译的：https://nextjscn.org/
+> 浏览器翻译插件的话推荐这一款：[沉浸式翻译](https://immersivetranslate.com/?via=kaipeng)
+
+不过 Next.js 官方文档不支持多语言，国内有社区翻译：https://nextjscn.org/
 
 它同步了 Next.js 最新 15 版本，可以作为官方文档的补充。
 
@@ -27,15 +29,15 @@ Next.js 在发布 14 版本的时候，还提供了一个教学网站：https://
 
 一方面是 Next.js 更新太快，书籍跟不上，最新的 *Real World Next.js* 这本书，已经是 2022 年 2 月份出版的。
 
-另一方面是 Next.js 在国内不红，目前 Next.js 的中文书暂时还没有。
+另一方面是上一节提到的，Next.js 在国内不红，导致目前 Next.js 相关中文书少之又少。
 
 ## 开源项目
 
-学习 Next.js 最好的方式，还是看优秀的开源项目。
+学习 Next.js 最好的方式，还得是看优秀的开源项目。
 
-目前 GitHub 破 10 万 Star 的热门项目，要数张路宇的 Dify.ai 了：https://github.com/langgenius/dify
+目前 GitHub 破 10 万 star 的热门项目，要数张路宇的 Dify.ai 了：https://github.com/langgenius/dify
 
-在 `/web` 目录下，就是一个基于最新 15 版本的 Next.js 项目，可以参考学习。
+在其 `/web` 目录下，就是一个基于最新 15 版本的 Next.js 项目，可以参考学习。
 
 另外还有其他一些 Next.js 开源项目，比如：
 
@@ -43,6 +45,16 @@ Next.js 在发布 14 版本的时候，还提供了一个教学网站：https://
 - Cal.com: https://github.com/calcom/cal.com
 - Infisical: GitHub - Infisical/infisical: Infisical is the open-source platform for secrets management, PKI, and
 - Ukey: GitHub - unkeyed/unkey: Open source API management platform
+
+## 掘金小册
+
+Next.js 开发指南：https://s.juejin.cn/ds/xsVYC_uvvgE/
+
+## AI 辅助
+
+🚧 WIP
+
+## 总结
 
 综上，学习 Next.js，一个是看官方文档，最新最权威，另一个是官方的教学网站，一步步学习，以及开源项目，学习别人优秀的代码和设计。
 
