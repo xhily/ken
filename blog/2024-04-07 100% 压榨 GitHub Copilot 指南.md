@@ -93,19 +93,20 @@ VSCode 确实会稍微麻烦一点，不过有个优势
 触发代码补全后，按下 `Tab` 接受会接受全部的代码，但有时候我们只需要一部补全代码
 
 可以使用 `Command` + → 去一步步接受补全代码：
+> Windows 为 `Ctrl` + →
 
 ![](https://img.wukaipeng.com/2024/04/12-221048-rhh5pH-20240412221008_rec_-convert.gif)
 
-> Windows 为 `Ctrl` + →
 
 如果对当前的补全代码不满意，可以按 `Option` + `]` 或者 `Option` + `[` 去切换下一个或者上一个补全代码：
+> Windows 为 `Alt` + `]` 或者 `Alt` + `[`
 
 
 ![](https://img.wukaipeng.com/2024/04/12-221510-ZAlVae-20240412221442_rec_-convert.gif)
 
-> Windows 为 `Alt` + `]` 或者 `Alt` + `[`
 
 对于 VSCode 来说，按下 `Command` + `I` 代码中唤起 Copilot Editor：
+> Windows 为 `Ctrl` + `I`
 
 ![](https://img.wukaipeng.com/2024/04/12-222404-6ICwrS-20240412222305_rec_-convert.gif)
 
