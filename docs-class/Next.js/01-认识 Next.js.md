@@ -47,7 +47,7 @@ Next.js 背后的公司 Vercel，靠着 Next.js 赚得盆满钵满。
 
 对于个人来说，学 Next.js 最实在的好处就是就业机会更多——现在出海的公司越来越多，Next.js 的就业机会自然也会越来越多。
 
-除此之外，也可以开发 Next.js 模版售卖，实现睡后收入，比如国内开发者开发的 [Nexty.dev](https://nexty.dev/zh)，基础版免费，高级版 199 美刀。
+除此之外，也可以开发 Next.js 模版售卖，实现睡后收入，比如国内开发者开发的 [Nexty.dev](https://nexty.dev/?ref=kaipeng)，基础版免费，高级版 199 美刀。
 
 纯技术角度的话，也可以学到 Next.js 的设计哲学和优秀的代码。
 
