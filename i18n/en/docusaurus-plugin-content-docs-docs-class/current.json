@@ -1,0 +1,14 @@
+{
+  "version.label": {
+    "message": "Next",
+    "description": "The label for version current"
+  },
+  "sidebar.tutorialSidebar.category.Electron": {
+    "message": "Electron",
+    "description": "The label for category Electron in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Next.js": {
+    "message": "Next.js",
+    "description": "The label for category Next.js in sidebar tutorialSidebar"
+  }
+}

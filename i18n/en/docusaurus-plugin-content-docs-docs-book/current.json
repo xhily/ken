@@ -1,0 +1,30 @@
+{
+  "version.label": {
+    "message": "Next",
+    "description": "The label for version current"
+  },
+  "sidebar.tutorialSidebar.category.《为什么精英都是时间控》": {
+    "message": "《为什么精英都是时间控》",
+    "description": "The label for category 《为什么精英都是时间控》 in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.《高效能人士的七个习惯》": {
+    "message": "《高效能人士的七个习惯》",
+    "description": "The label for category 《高效能人士的七个习惯》 in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.本恰恰": {
+    "message": "本恰恰",
+    "description": "The label for category 本恰恰 in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.关于思维方式&认知": {
+    "message": "关于思维方式&认知",
+    "description": "The label for category 关于思维方式&认知 in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.檀东东": {
+    "message": "檀东东",
+    "description": "The label for category 檀东东 in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.结构化思维": {
+    "message": "结构化思维",
+    "description": "The label for category 结构化思维 in sidebar tutorialSidebar"
+  }
+}

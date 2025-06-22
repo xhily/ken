@@ -1,0 +1,22 @@
+{
+  "item.label.🦄 技术": {
+    "message": "🦄 技术",
+    "description": "Navbar item with label 🦄 技术"
+  },
+  "item.label.🌌 博客": {
+    "message": "🌌 博客",
+    "description": "Navbar item with label 🌌 博客"
+  },
+  "item.label.🐻‍❄️ 课程": {
+    "message": "🐻‍❄️ 课程",
+    "description": "Navbar item with label 🐻‍❄️ 课程"
+  },
+  "item.label.🐳 英语": {
+    "message": "🐳 英语",
+    "description": "Navbar item with label 🐳 英语"
+  },
+  "item.label.🦋 阅读": {
+    "message": "🦋 阅读",
+    "description": "Navbar item with label 🦋 阅读"
+  }
+} 

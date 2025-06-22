@@ -1,0 +1,39 @@
+{
+  "link.title.联系方式": {
+    "message": "联系方式"
+  },
+  "link.title.供应商": {
+    "message": "供应商"
+  },
+  "link.title.公众号": {
+    "message": "公众号"
+  },
+  "link.title.支持一下": {
+    "message": "支持一下"
+  },
+  "link.item.label.Email": {
+    "message": "Email"
+  },
+  "link.item.label.GitHub": {
+    "message": "GitHub"
+  },
+  "link.item.label.X (Twitter)": {
+    "message": "X (Twitter)"
+  },
+  "link.item.label.由 UCloud 提供服务器": {
+    "message": "由 UCloud 提供服务器"
+  },
+  "link.item.label.粤 ICP 备 2023085392 号": {
+    "message": "粤 ICP 备 2023085392 号"
+  },
+  "link.item.label.爱发电": {
+    "message": "爱发电"
+  },
+  "copyright": {
+    "message": "Copyright © {year} 楷鹏."
+  },
+  "theme.footer.copyright": {
+    "message": "Copyright © {year} 楷鹏.",
+    "description": "The footer copyright"
+  }
+} 

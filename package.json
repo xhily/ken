@@ -4,6 +4,8 @@
   "private": true,
   "scripts": {
     "dev": "docusaurus start --host 0.0.0.0",
+    "dev:zh": "docusaurus start --host 0.0.0.0 --locale zh-CN",
+    "dev:en": "docusaurus start --host 0.0.0.0 --locale en",
     "start": "npm run dev",
     "build": "docusaurus build",
     "docusaurus": "docusaurus",

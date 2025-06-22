@@ -1,0 +1,26 @@
+{
+  "item.label.🦄 技术": {
+    "message": "🦄 Tech",
+    "description": "Navbar item with label 🦄 技术"
+  },
+  "item.label.🌌 博客": {
+    "message": "🌌 Blog",
+    "description": "Navbar item with label 🌌 博客"
+  },
+  "item.label.🐻‍❄️ 课程": {
+    "message": "🐻‍❄️ Courses",
+    "description": "Navbar item with label 🐻‍❄️ 课程"
+  },
+  "item.label.🐳 英语": {
+    "message": "🐳 English",
+    "description": "Navbar item with label 🐳 英语"
+  },
+  "item.label.🦋 阅读": {
+    "message": "🦋 Reading",
+    "description": "Navbar item with label 🦋 阅读"
+  },
+  "logo.alt": {
+    "message": "My Site Logo",
+    "description": "The alt text of navbar logo"
+  }
+}

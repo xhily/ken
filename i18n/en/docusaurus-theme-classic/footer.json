@@ -1,0 +1,50 @@
+{
+  "link.title.联系方式": {
+    "message": "Contact",
+    "description": "The title of the footer links column with title=联系方式 in the footer"
+  },
+  "link.title.供应商": {
+    "message": "Providers",
+    "description": "The title of the footer links column with title=供应商 in the footer"
+  },
+  "link.title.公众号": {
+    "message": "WeChat",
+    "description": "The title of the footer links column with title=公众号 in the footer"
+  },
+  "link.title.支持一下": {
+    "message": "Support",
+    "description": "The title of the footer links column with title=支持一下 in the footer"
+  },
+  "link.item.label.Email": {
+    "message": "Email",
+    "description": "The label of footer link with label=Email linking to mailto:wkpcoder@163.com"
+  },
+  "link.item.label.GitHub": {
+    "message": "GitHub",
+    "description": "The label of footer link with label=GitHub linking to https://github.com/wukaipeng-dev"
+  },
+  "link.item.label.X (Twitter)": {
+    "message": "X (Twitter)",
+    "description": "The label of footer link with label=X (Twitter) linking to https://twitter.com/x_wukaipeng"
+  },
+  "link.item.label.由 UCloud 提供服务器": {
+    "message": "Server by UCloud",
+    "description": "The label of footer link with label=由 UCloud 提供服务器 linking to https://www.ucloud.cn/site/active/kuaijiesale.html?invitation_code=C1xCCE664C27422"
+  },
+  "link.item.label.粤 ICP 备 2023085392 号": {
+    "message": "Guangdong ICP No. 2023085392",
+    "description": "The label of footer link with label=粤 ICP 备 2023085392 号 linking to https://beian.miit.gov.cn"
+  },
+  "link.item.label.爱发电": {
+    "message": "Afdian",
+    "description": "The label of footer link with label=爱发电 linking to https://afdian.com/a/wukaipeng"
+  },
+  "copyright": {
+    "message": "Copyright © {year} Kaipeng.",
+    "description": "The footer copyright"
+  },
+  "theme.footer.copyright": {
+    "message": "Copyright © {year} Kaipeng.",
+    "description": "The footer copyright"
+  }
+}

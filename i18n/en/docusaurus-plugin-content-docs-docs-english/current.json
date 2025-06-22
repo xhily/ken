@@ -1,0 +1,130 @@
+{
+  "version.label": {
+    "message": "Next",
+    "description": "The label for version current"
+  },
+  "sidebar.tutorialSidebar.category.语法 - Grammar": {
+    "message": "语法 - Grammar",
+    "description": "The label for category 语法 - Grammar in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.语法 - Grammar.link.generated-index.description": {
+    "message": "Grammar 语法课程",
+    "description": "The generated-index page description for category 语法 - Grammar in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.雅思 - IELTS": {
+    "message": "雅思 - IELTS",
+    "description": "The label for category 雅思 - IELTS in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.雅思 - IELTS.link.generated-index.description": {
+    "message": "烤鸭学习资料",
+    "description": "The generated-index page description for category 雅思 - IELTS in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.有道至尊班": {
+    "message": "有道至尊班",
+    "description": "The label for category 有道至尊班 in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.GSL": {
+    "message": "GSL",
+    "description": "The label for category GSL in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.GSL.link.generated-index.description": {
+    "message": "GSL",
+    "description": "The generated-index page description for category GSL in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Pre-Unit": {
+    "message": "Pre-Unit",
+    "description": "The label for category Pre-Unit in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Pre-Unit.link.generated-index.description": {
+    "message": "Pre-Unit",
+    "description": "The generated-index page description for category Pre-Unit in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Pre-发音课": {
+    "message": "Pre-发音课",
+    "description": "The label for category Pre-发音课 in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Pre-发音课.link.generated-index.description": {
+    "message": "Pre-发音课",
+    "description": "The generated-index page description for category Pre-发音课 in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.听力课": {
+    "message": "听力课",
+    "description": "The label for category 听力课 in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.听力课.link.generated-index.description": {
+    "message": "听力课",
+    "description": "The generated-index page description for category 听力课 in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.基础段": {
+    "message": "基础段",
+    "description": "The label for category 基础段 in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.强化段": {
+    "message": "强化段",
+    "description": "The label for category 强化段 in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.附录": {
+    "message": "附录",
+    "description": "The label for category 附录 in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.口语课": {
+    "message": "口语课",
+    "description": "The label for category 口语课 in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.口语课.link.generated-index.description": {
+    "message": "口语课",
+    "description": "The generated-index page description for category 口语课 in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.阅读课": {
+    "message": "阅读课",
+    "description": "The label for category 阅读课 in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.阅读课.link.generated-index.description": {
+    "message": "阅读课",
+    "description": "The generated-index page description for category 阅读课 in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.写作课": {
+    "message": "写作课",
+    "description": "The label for category 写作课 in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.写作课.link.generated-index.description": {
+    "message": "写作课",
+    "description": "The generated-index page description for category 写作课 in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.冲刺段": {
+    "message": "冲刺段",
+    "description": "The label for category 冲刺段 in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.场景词汇听写": {
+    "message": "场景词汇听写",
+    "description": "The label for category 场景词汇听写 in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.雅思剑桥真题": {
+    "message": "雅思剑桥真题",
+    "description": "The label for category 雅思剑桥真题 in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.C19": {
+    "message": "C19",
+    "description": "The label for category C19 in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Listening": {
+    "message": "Listening",
+    "description": "The label for category Listening in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.C4": {
+    "message": "C4",
+    "description": "The label for category C4 in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.C5": {
+    "message": "C5",
+    "description": "The label for category C5 in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.野哥词汇课": {
+    "message": "野哥词汇课",
+    "description": "The label for category 野哥词汇课 in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.海外生存英语": {
+    "message": "海外生存英语",
+    "description": "The label for category 海外生存英语 in sidebar tutorialSidebar"
+  }
+}

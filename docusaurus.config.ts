@@ -42,6 +42,10 @@ const NAVBAR_ITEMS: PresetClassic.ThemeConfig['navbar']['items'] = [
     className: 'header-github-link',
     'aria-label': 'GitHub repository',
   },
+  {
+    type: 'localeDropdown',
+    position: 'right',
+  },
   { type: 'search', position: 'right' },
 ]
 
@@ -127,6 +131,23 @@ const config: Config = {
     },
   ],
 
+  i18n: {
+    defaultLocale: 'zh-CN',
+    locales: ['zh-CN', 'en'],
+    localeConfigs: {
+      'zh-CN': {
+        label: '简体中文',
+        direction: 'ltr',
+        htmlLang: 'zh-CN',
+      },
+      en: {
+        label: 'English',
+        direction: 'ltr',
+        htmlLang: 'en',
+      },
+    },
+  },
+
   customFields: {
     GISCUS_REPO_ID: process.env.GISCUS_REPO_ID,
     GISCUS_CATEGORY_ID: process.env.GISCUS_CATEGORY_ID,
@@ -181,7 +202,6 @@ const config: Config = {
     footer: {
       style: 'dark',
       links: FOOTER_LINKS,
-      copyright: `Copyright © ${new Date().getFullYear()} 楷鹏.`,
     },
     docs: {
       sidebar: {
@@ -217,18 +237,6 @@ const config: Config = {
       },
     ]),
   ],
-
-  i18n: {
-    defaultLocale: 'zh-CN',
-    locales: ['zh-CN'],
-    localeConfigs: {
-      'zh-CN': {
-        label: '简体中文',
-        direction: 'ltr',
-        htmlLang: 'zh-CN',
-      },
-    },
-  },
 
   markdown: {
     mermaid: true,

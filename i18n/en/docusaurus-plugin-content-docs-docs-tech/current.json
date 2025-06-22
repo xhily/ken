@@ -1,0 +1,238 @@
+{
+  "version.label": {
+    "message": "Next",
+    "description": "The label for version current"
+  },
+  "sidebar.tutorialSidebar.category.2D&3D": {
+    "message": "2D&3D",
+    "description": "The label for category 2D&3D in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Three.js": {
+    "message": "Three.js",
+    "description": "The label for category Three.js in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.认识 Three.js": {
+    "message": "认识 Three.js",
+    "description": "The label for category 认识 Three.js in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Three.js 入门": {
+    "message": "Three.js 入门",
+    "description": "The label for category Three.js 入门 in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Geometry 进阶": {
+    "message": "Geometry 进阶",
+    "description": "The label for category Geometry 进阶 in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Three.js 基础": {
+    "message": "Three.js 基础",
+    "description": "The label for category Three.js 基础 in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.附录": {
+    "message": "附录",
+    "description": "The label for category 附录 in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.AI": {
+    "message": "AI",
+    "description": "The label for category AI in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.AI.link.generated-index.description": {
+    "message": "AI 领域相关笔记",
+    "description": "The generated-index page description for category AI in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.云原生": {
+    "message": "云原生",
+    "description": "The label for category 云原生 in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.云原生.link.generated-index.description": {
+    "message": "云原生相关技术，包括 Docker、Kubernetes、Istio 等",
+    "description": "The generated-index page description for category 云原生 in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Docker": {
+    "message": "Docker",
+    "description": "The label for category Docker in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.劳动法": {
+    "message": "劳动法",
+    "description": "The label for category 劳动法 in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.工具": {
+    "message": "工具",
+    "description": "The label for category 工具 in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.工具.link.generated-index.description": {
+    "message": "工具使用，比如 Git、VSCode 等",
+    "description": "The generated-index page description for category 工具 in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Git": {
+    "message": "Git",
+    "description": "The label for category Git in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.工程化": {
+    "message": "工程化",
+    "description": "The label for category 工程化 in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.工程化.link.generated-index.description": {
+    "message": "工程化相关知识点，包括但不限于：性能优化、构建工具、CI/CD、代码规范、测试、监控等",
+    "description": "The generated-index page description for category 工程化 in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.前端": {
+    "message": "前端",
+    "description": "The label for category 前端 in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.智能硬件": {
+    "message": "智能硬件",
+    "description": "The label for category 智能硬件 in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.3D 打印": {
+    "message": "3D 打印",
+    "description": "The label for category 3D 打印 in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.浏览器": {
+    "message": "浏览器",
+    "description": "The label for category 浏览器 in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.网络": {
+    "message": "网络",
+    "description": "The label for category 网络 in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.网络.link.generated-index.description": {
+    "message": "网络",
+    "description": "The generated-index page description for category 网络 in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.TCP-IP Illustrated Volume1 The Protocols(Second Edition)": {
+    "message": "TCP-IP Illustrated Volume1 The Protocols(Second Edition)",
+    "description": "The label for category TCP-IP Illustrated Volume1 The Protocols(Second Edition) in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.网络安全": {
+    "message": "网络安全",
+    "description": "The label for category 网络安全 in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.网络安全.link.generated-index.description": {
+    "message": "网络安全训练营全部笔记",
+    "description": "The generated-index page description for category 网络安全 in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.一、网络安全环境 Web 与基础": {
+    "message": "一、网络安全环境 Web 与基础",
+    "description": "The label for category 一、网络安全环境 Web 与基础 in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.二、JavaScript、Docker、MySQL 数据库、DVWA 安装": {
+    "message": "二、JavaScript、Docker、MySQL 数据库、DVWA 安装",
+    "description": "The label for category 二、JavaScript、Docker、MySQL 数据库、DVWA 安装 in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.三、数据库、Web 安全与风险、攻防环境搭建": {
+    "message": "三、数据库、Web 安全与风险、攻防环境搭建",
+    "description": "The label for category 三、数据库、Web 安全与风险、攻防环境搭建 in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.四、信息收集、Nmap、Xray、X-Scan 工具": {
+    "message": "四、信息收集、Nmap、Xray、X-Scan 工具",
+    "description": "The label for category 四、信息收集、Nmap、Xray、X-Scan 工具 in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.五、Appscan、Nessus、AWVS、Burp": {
+    "message": "五、Appscan、Nessus、AWVS、Burp",
+    "description": "The label for category 五、Appscan、Nessus、AWVS、Burp in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.六、SQL 注入": {
+    "message": "六、SQL 注入",
+    "description": "The label for category 六、SQL 注入 in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.七、XSS": {
+    "message": "七、XSS",
+    "description": "The label for category 七、XSS in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.八、文件上传、文件包含": {
+    "message": "八、文件上传、文件包含",
+    "description": "The label for category 八、文件上传、文件包含 in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.九、CSRF、SSRF、XXE、远程代码执行": {
+    "message": "九、CSRF、SSRF、XXE、远程代码执行",
+    "description": "The label for category 九、CSRF、SSRF、XXE、远程代码执行 in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.十、渗透测试基础": {
+    "message": "十、渗透测试基础",
+    "description": "The label for category 十、渗透测试基础 in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.十三、PHP": {
+    "message": "十三、PHP",
+    "description": "The label for category 十三、PHP in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.十五、Kubernetes": {
+    "message": "十五、Kubernetes",
+    "description": "The label for category 十五、Kubernetes in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.计算机基础": {
+    "message": "计算机基础",
+    "description": "The label for category 计算机基础 in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.操作系统": {
+    "message": "操作系统",
+    "description": "The label for category 操作系统 in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.操作系统.link.generated-index.description": {
+    "message": "操作系统学习资料，包括 Linux、Windows、MacOS 等",
+    "description": "The generated-index page description for category 操作系统 in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Linux": {
+    "message": "Linux",
+    "description": "The label for category Linux in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Mac": {
+    "message": "Mac",
+    "description": "The label for category Mac in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.算法": {
+    "message": "算法",
+    "description": "The label for category 算法 in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.算法.link.generated-index.description": {
+    "message": "算法学习笔记",
+    "description": "The generated-index page description for category 算法 in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.语言": {
+    "message": "语言",
+    "description": "The label for category 语言 in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.语言.link.generated-index.description": {
+    "message": "编程语言相关，包括 Java、JavaScript、CSS、HTML 等",
+    "description": "The generated-index page description for category 语言 in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.CSS": {
+    "message": "CSS",
+    "description": "The label for category CSS in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.CSS In Depth": {
+    "message": "CSS In Depth",
+    "description": "The label for category CSS In Depth in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Java": {
+    "message": "Java",
+    "description": "The label for category Java in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.JavaScript": {
+    "message": "JavaScript",
+    "description": "The label for category JavaScript in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.迭代器": {
+    "message": "迭代器",
+    "description": "The label for category 迭代器 in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.面试": {
+    "message": "面试",
+    "description": "The label for category 面试 in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.面试.link.generated-index.description": {
+    "message": "前端面经，包括面试题、面试知识点",
+    "description": "The generated-index page description for category 面试 in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.React.js": {
+    "message": "React.js",
+    "description": "The label for category React.js in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.异常追踪&性能监控": {
+    "message": "异常追踪&性能监控",
+    "description": "The label for category 异常追踪&性能监控 in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.数据结构与算法": {
+    "message": "数据结构与算法",
+    "description": "The label for category 数据结构与算法 in sidebar tutorialSidebar"
+  }
+}
