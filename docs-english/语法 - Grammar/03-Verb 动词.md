@@ -59,7 +59,7 @@ All sentences contain verbs. 所有的句子都包含动词。
 
 <br />
 
-> 👿 《指环王》中有一个叫做 Gollum 咕噜的生物，它讲的话就违背 verb agreement，每一个动词都加上 s，比如它不说“I love it”，而是“I loves it”。
+> 👿 《指环王》中有一个叫做 Gollum 咕噜的生物，它讲的话就违背 verb agreement，每一个动词都加上 s，比如它不说"I love it"，而是"I loves it"。
 
 
 
@@ -240,9 +240,9 @@ walk 的过去式是 walked，其他不规则单词其实也是为了发 -ed 这
 
 ### Vowel-Shift Irregular Verb 元音变换动词
 
-🔗 [区分元音音标和辅音音标](/eng/clarify-vowel-consonant)
+🔗 [区分元音音标和辅音音标](/blog/clarify-vowel-consonant)
 
-Vowel 元音：Your tongue didn’t touch lips, teeth, or roof of your mouth.  发音的时候你的舌头没有碰到嘴唇、牙齿或上颚。
+Vowel 元音：Your tongue didn't touch lips, teeth, or roof of your mouth.  发音的时候你的舌头没有碰到嘴唇、牙齿或上颚。
 
 | Present 现在式 | Past 过去式   | Past Perfect 过去分词 | 备注                   |
 | -------------- | ------------- | --------------------- | ---------------------- |
@@ -268,7 +268,7 @@ Vowel 元音：Your tongue didn’t touch lips, teeth, or roof of your mouth.  �
 
 
 
-### The Irregular Verb gets taken a ride 被不规则动词“骗了”
+### The Irregular Verb gets taken a ride 被不规则动词"骗了"
 
 有些不规则动词也存在<u>通过元音变换</u>，但是它们的过去式 or 过去分词则是变为了 -en 结尾
 
@@ -382,7 +382,7 @@ Perfect Aspect: Something has been completed.
 
 Perfect progressive aspect: 
 
-- You’ve been doing something for a long time 你花了很长时间正在做一件事
+- You've been doing something for a long time 你花了很长时间正在做一件事
 - Or you will have done something for a long time 或者你之前花了很长时间做完某事
 - Or that you had been doing something continuously 或者你会继续做某一件事情
 
@@ -432,9 +432,9 @@ Perfect progressive aspect:
 
 - I <u>can</u> eat ten pounds of broccoli! ➡ Ability.
 
-- I <u>would</u> make the bed, but I’m tired. ➡ Possibility.
+- I <u>would</u> make the bed, but I'm tired. ➡ Possibility.
 
-- You <u>shouldn’t</u> do that.  ➡ Advise.
+- You <u>shouldn't</u> do that.  ➡ Advise.
 
 - He <u>will</u> win the competition. ➡ Future.
 
