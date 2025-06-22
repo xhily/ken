@@ -101,6 +101,19 @@ const config: Config = {
   onBrokenMarkdownLinks: 'warn',
   trailingSlash: false,
 
+  future: {
+    // experimental_faster: {
+    //   rspackBundler: true,
+    //   rspackPersistentCache: true,
+    //   ssgWorkerThreads: true,
+    // },
+    // v4: {
+    //   removeLegacyPostBuildHeadAttribute: true,
+    // },
+    experimental_faster: true,
+    v4: true
+  },
+
   headTags: [
     {
       tagName: 'link',
