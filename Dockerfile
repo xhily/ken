@@ -1,8 +1,9 @@
+# Multi-stage build for smaller image size
 
-# 使用较小的基础镜像
-FROM node:lts-alpine
+# Stage 1: Build stage
+FROM node:lts-alpine AS builder
 
-# 环境变量
+# Environment variables for build
 ARG POSTHOG_API_KEY
 ARG GISCUS_REPO_ID
 ARG GISCUS_CATEGORY_ID
@@ -17,21 +18,59 @@ ENV ALGOLIA_APP_ID=$ALGOLIA_APP_ID
 ENV ALGOLIA_API_KEY=$ALGOLIA_API_KEY
 ENV ALGOLIA_INDEX_NAME=$ALGOLIA_INDEX_NAME
 
-# 设置工作目录
+# Set working directory
 WORKDIR /app
 
-# 首先只复制依赖文件并安装，这样如果依赖没有变化，就不会每次都重建此部分
+# Copy package files and install ALL dependencies (including devDependencies for build)
 COPY package*.json ./
-RUN npm install
+RUN npm ci
 
-# 现在复制其他文件
+# Copy source files
 COPY . .
 
-# 构建应用
+# Build the application
 RUN npm run build
 
-# 暴露端口
+# Stage 2: Production stage
+FROM node:lts-alpine AS production
+
+# Environment variables for runtime
+ARG POSTHOG_API_KEY
+ARG GISCUS_REPO_ID
+ARG GISCUS_CATEGORY_ID
+ARG ALGOLIA_APP_ID
+ARG ALGOLIA_API_KEY
+ARG ALGOLIA_INDEX_NAME
+
+ENV POSTHOG_API_KEY=$POSTHOG_API_KEY
+ENV GISCUS_REPO_ID=$GISCUS_REPO_ID
+ENV GISCUS_CATEGORY_ID=$GISCUS_CATEGORY_ID
+ENV ALGOLIA_APP_ID=$ALGOLIA_APP_ID
+ENV ALGOLIA_API_KEY=$ALGOLIA_API_KEY
+ENV ALGOLIA_INDEX_NAME=$ALGOLIA_INDEX_NAME
+
+WORKDIR /app
+
+# Copy package files
+COPY package*.json ./
+
+# Install only production dependencies
+RUN npm ci --only=production && npm cache clean --force
+
+# Copy built application from builder stage
+COPY --from=builder /app/build ./build
+
+# Copy static files and other necessary runtime files
+COPY static ./static
+COPY docusaurus.config.ts ./
+COPY sidebars.js ./
+COPY babel.config.ts ./
+
+# If you have any other necessary config files for runtime, copy them here
+# COPY tsconfig.json ./
+
+# Expose port
 EXPOSE 3000
 
-# 设置启动命令
-ENTRYPOINT npm run serve -- --build --port 3000 --host 0.0.0.0
+# Start the application
+ENTRYPOINT ["npm", "run", "serve", "--", "--build", "--port", "3000", "--host", "0.0.0.0"]
