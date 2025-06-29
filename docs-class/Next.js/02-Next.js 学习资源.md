@@ -3,13 +3,19 @@ slug: class/nextjs/resources
 title: Next.js 学习资源大全，良心推荐
 ---
 
+哈喽，我是楷鹏。欢迎来到 Next.js 课程。
+
+学习 Next.js，单一地看官方文档，或者看教学网站，可能还是不够的。
+
+所以本节内容，主要推荐一下 Next.js 的相关学习资源，让你多角度学习 Next.js。
+
 ## 官方文档
 
 学习 Next.js，最权威的还是官方文档：https://nextjs.org/
 
-不过 Next.js 官方文档只有英文，不支持多语言，国内有社区翻译：https://nextjscn.org/
+> 英文阅读有障碍的话，可搭配浏览器翻译插件，推荐这一款：[沉浸式翻译](https://immersivetranslate.com/?via=kaipeng)
 
-> 英文阅读有障碍的化，可搭配浏览器翻译插件，推荐这一款：[沉浸式翻译](https://immersivetranslate.com/?via=kaipeng)
+不过 Next.js 官方文档只有英文，不支持多语言，国内有社区翻译，你可以访问这个网站：https://nextjscn.org/
 
 它同步了 Next.js 最新 15 版本，可以作为官方文档的补充。
 
@@ -25,17 +31,17 @@ Next.js 在发布 14 版本的时候，还新增了一个教学网站：https://
 
 ## 书籍
 
-关于 Next.js 看书的念头，可以放弃了。
+关于 Next.js 看书的念头，你可以放弃了。
 
-一方面是 Next.js 更新太快，书籍跟不上，最新的 *Real World Next.js* 这本书，已经是 2022 年 2 月份出版的。
+一方面是 Next.js 更新太快了，书籍跟不上，最新的 *Real World Next.js* 这本书，已经是 2022 年 2 月份出版的。
 
-另一方面是上一节提到的，Next.js 在国内不红，导致目前 Next.js 相关中文书少之又少。
+另一方面是第一节课提到的，Next.js 在国内不红，导致目前 Next.js 相关中文书少之又少。
 
 ## 掘金小册
 
 国内中文书虽然少，但还好有一个稀土掘金。
 
-推荐这本掘金小册，[《Next.js 开发指南》](https://s.juejin.cn/ds/xsVYC_uvvgE/)，作者冴羽
+推荐这本掘金小册，[《Next.js 开发指南》](https://s.juejin.cn/ds/xsVYC_uvvgE/)，作者是冴羽老师
 
 ## 开源项目
 
@@ -49,23 +55,28 @@ Next.js 在发布 14 版本的时候，还新增了一个教学网站：https://
 
 - Superbase：https://github.com/supabase/supabase
 - Cal.com: https://github.com/calcom/cal.com
-- Infisical: GitHub - Infisical/infisical: Infisical is the open-source platform for secrets management, PKI, and
-- Ukey: GitHub - unkeyed/unkey: Open source API management platform
-
+- Infisical: https://github.com/Infisical/infisical
 
 ## AI 辅助
 
-🚧 WIP
+AI 是当下每个程序员都应该掌握的技能，学习 Next.js 也不例外。
+
+这里推荐我平时常用 AI 工具套装：
+
+- 编程类：Cursor、Copilot
+- 搜索类：Perplexity
+- 对话类：腾讯元宝、ChatGPT、Claude、Gemini
+- 在线编程：v0、Bolt.new
 
 ## 总结
 
-综上，学习 Next.js，一个是看官方文档，最新最权威，另一个是官方的教学网站，一步步学习，以及开源项目，学习别人优秀的代码和设计。
+综上，学习 Next.js，一个是看官方文档，最新最权威，另一个是官方的教学网站，一步步学习，以及开源项目，学习别人优秀的代码和设计，最后就是 AI 辅助，让你学习和编码更高效。
 
 最后，就是加上本课程，本课程是基于最新 15 版本的 Next.js 课程，并且是基于 App Router 的课程，可以大胆食用。
 
 相信有了这些学习资源，你已经可以开始学习 Next.js 了。
 
-
+好了，以上就是本期的全部内容，感谢你的观看，我们下一节课见。
 
 
 
