@@ -33,7 +33,7 @@ Next.js 在发布 14 版本的时候，还新增了一个教学网站：https://
 
 关于 Next.js 看书的念头，你可以放弃了。
 
-一方面是 Next.js 更新太快了，书籍跟不上，最新的 *Real World Next.js* 这本书，已经是 2022 年 2 月份出版的。
+一方面是 Next.js 更新太快了，书籍跟不上，最新的 *Real World Next.js* 这本书，已经是 2022 年 2 月份出版的。 
 
 另一方面是第一节课提到的，Next.js 在国内不红，导致目前 Next.js 相关中文书少之又少。
 
@@ -53,9 +53,10 @@ Next.js 在发布 14 版本的时候，还新增了一个教学网站：https://
 
 另外还有其他一些 Next.js 开源项目，比如：
 
-- Superbase：https://github.com/supabase/supabase
-- Cal.com: https://github.com/calcom/cal.com
-- Infisical: https://github.com/Infisical/infisical
+- LobeChat(63.1k): https://github.com/lobehub/lobe-chat
+- Supabase(85.2k)：https://github.com/supabase/supabase
+- Cal.com(37k): https://github.com/calcom/cal.com
+- Infisical(18.4k): https://github.com/Infisical/infisical
 
 ## 6. AI 辅助
 
@@ -66,7 +67,7 @@ AI 是当下每个程序员都应该掌握的技能，学习 Next.js 也不例�
 - 编程类：Cursor、Copilot
 - 搜索类：Perplexity
 - 对话类：腾讯元宝、ChatGPT、Claude、Gemini
-- 在线编程：v0、Bolt.new
+- 在线编程：v0、Bolt.new、NoCode
 
 ## 总结
 
@@ -74,7 +75,7 @@ AI 是当下每个程序员都应该掌握的技能，学习 Next.js 也不例�
 
 最后，就是加上本课程，本课程是基于最新 15 版本的 Next.js 课程，可以大胆食用。
 
-相信有了这些学习资源，你已经可以开始学习 Next.js 了。
+相信有了这些学习资源，你已经可以开始深入地学习 Next.js 了。
 
 好了，以上就是本期的全部内容，感谢你的观看，我们下一节课见。
 
