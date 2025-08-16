@@ -31,8 +31,8 @@ const CONTENT_CONFIG = {
 
 // Theme configuration
 const NAVBAR_ITEMS: PresetClassic.ThemeConfig['navbar']['items'] = [
-  { to: 'technique', label: '🦄 技术' },
-  { to: 'blog', label: '🌌 博客' },
+  { to: 'technique', label: '🦄 知识库' },
+  { to: 'blog', label: '🌌 文章' },
   { to: 'class', label: '🐻‍❄️ 课程' },
   { to: 'english', label: '🐳 英语' },
   { to: 'read', label: '🦋 阅读' },
@@ -74,7 +74,7 @@ const FOOTER_LINKS: PresetClassic.ThemeConfig['footer']['links'] = [
           </a>`,
       },
       {
-        label: '粤 ICP 备 2023085392 号',
+        label: '粤ICP备2023085392号',
         href: 'https://beian.miit.gov.cn',
       },
     ],

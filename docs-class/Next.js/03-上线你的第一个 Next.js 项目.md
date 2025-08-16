@@ -48,13 +48,13 @@ npm run dev
 
 激动人心的时刻到了，你将会看到一个默认的页面。
 
-![Next.js 默认页面](./images/nextjs-default-page.png)
+// TODO
 
 将文本“Hello World”写进去，然后保存。
 
 这时，你的第一个 Hello World 程序就写好啦。
 
-![Next.js 第一个 Hello World 程序](./images/nextjs-first-hello-world.png)
+// TODO
 
 
 

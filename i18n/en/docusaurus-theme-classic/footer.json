@@ -31,9 +31,9 @@
     "message": "Server by UCloud",
     "description": "The label of footer link with label=由 UCloud 提供服务器 linking to https://www.ucloud.cn/site/active/kuaijiesale.html?invitation_code=C1xCCE664C27422"
   },
-  "link.item.label.粤 ICP 备 2023085392 号": {
+  "link.item.label.粤ICP备2023085392号": {
     "message": "Guangdong ICP No. 2023085392",
-    "description": "The label of footer link with label=粤 ICP 备 2023085392 号 linking to https://beian.miit.gov.cn"
+    "description": "The label of footer link with label=粤ICP备2023085392号 linking to https://beian.miit.gov.cn"
   },
   "link.item.label.爱发电": {
     "message": "Afdian",

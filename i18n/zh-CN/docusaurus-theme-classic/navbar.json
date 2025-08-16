@@ -1,11 +1,11 @@
 {
-  "item.label.🦄 技术": {
-    "message": "🦄 技术",
-    "description": "Navbar item with label 🦄 技术"
+  "item.label.🦄 知识库": {
+    "message": "🦄 知识库",
+    "description": "Navbar item with label 🦄 知识库"
   },
-  "item.label.🌌 博客": {
-    "message": "🌌 博客",
-    "description": "Navbar item with label 🌌 博客"
+  "item.label.🌌 文章": {
+    "message": "🌌 文章",
+    "description": "Navbar item with label 🌌 文章"
   },
   "item.label.🐻‍❄️ 课程": {
     "message": "🐻‍❄️ 课程",
