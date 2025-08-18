@@ -30,10 +30,10 @@
     "message": "爱发电"
   },
   "copyright": {
-    "message": "Copyright © {year} 楷鹏."
+    "message": "版权所有 © {year} 楷鹏."
   },
   "theme.footer.copyright": {
-    "message": "Copyright © {year} 楷鹏.",
+    "message": "版权所有 © {year} 楷鹏.",
     "description": "The footer copyright"
   }
 } 

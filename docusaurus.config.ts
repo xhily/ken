@@ -55,7 +55,7 @@ const FOOTER_LINKS: PresetClassic.ThemeConfig['footer']['links'] = [
     items: [
       { label: 'Email', href: 'mailto:wkpcoder@163.com' },
       { label: 'GitHub', href: 'https://github.com/wukaipeng-dev' },
-      { label: 'X (Twitter)', href: 'https://twitter.com/x_wukaipeng' },
+      { label: 'X', href: 'https://twitter.com/x_wukaipeng' },
     ],
   },
   {
@@ -79,14 +79,14 @@ const FOOTER_LINKS: PresetClassic.ThemeConfig['footer']['links'] = [
       },
     ],
   },
-  {
-    title: '公众号',
-    items: [
-      {
-        html: `<img src="/img/contact/qrcode_for_gh_36929351504f_430.jpg" style="height: 10rem" />`,
-      },
-    ],
-  },
+  // {
+  //   title: '公众号',
+  //   items: [
+  //     {
+  //       html: `<img src="/img/contact/qrcode_for_gh_36929351504f_430.jpg" style="height: 10rem" />`,
+  //     },
+  //   ],
+  // },
   {
     title: '支持一下',
     items: [
