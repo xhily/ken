@@ -6,7 +6,7 @@ export default function DocItemWrapper(props) {
   return (
     <>
       <DocItem {...props} />
-      <GiscusComponent />
+      {/* <GiscusComponent /> */}
     </>
   )
 }
