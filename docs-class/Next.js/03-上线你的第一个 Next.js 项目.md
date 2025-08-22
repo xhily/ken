@@ -19,7 +19,7 @@ draft: true
 首先，找到一个干净又卫生的控制台，执行下面命令：
 
 ```bash
-npx create-next-app@latest`
+npx create-next-app@latest
 ```
 
 按照命令提示选择你喜欢的配置：
@@ -34,17 +34,17 @@ npx create-next-app@latest`
 ? Would you like to use Turbopack for `next dev`? › No / Yes
 ```
 
-如果你不知道选项是什么意思，没关系，直接选 `No`，这不是在学校上课、在公司上班。
+如果你不知道选项是什么意思，没关系，直接选 `No`，这不是在考试，没必要都知道。
 
-那么当你完成上面命令之后，一个崭新的 Next.js 项目就创建出来啦。
+那么当你完成上面命令之后，一个新鲜的 Next.js 项目就出炉了。
 
-运行：
+在控制台运行下面命令，启动 Next.js 项目：
 
 ```bash
 npm run dev
 ```
 
-在浏览器中访问：http://localhost:3000/
+接着在浏览器中访问：http://localhost:3000/
 
 激动人心的时刻到了，你将会看到一个默认的页面。
 
