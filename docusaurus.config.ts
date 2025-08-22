@@ -87,15 +87,15 @@ const FOOTER_LINKS: PresetClassic.ThemeConfig['footer']['links'] = [
   //     },
   //   ],
   // },
-  {
-    title: '支持一下',
-    items: [
-      {
-        label: '爱发电',
-        href: 'https://afdian.com/a/wukaipeng',
-      },
-    ],
-  },
+  // {
+  //   title: '支持一下',
+  //   items: [
+  //     {
+  //       label: '爱发电',
+  //       href: 'https://afdian.com/a/wukaipeng',
+  //     },
+  //   ],
+  // },
 ]
 
 const config: Config = {
