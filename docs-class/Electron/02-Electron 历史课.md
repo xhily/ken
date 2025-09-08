@@ -22,17 +22,19 @@ timeline
 
 但 node-webkit 最初并不是用来开发桌面应用，它仅仅只是一个 node.js 模块，可以创建 WebKit 窗口，并在 WebKit 中调用 Node.js 的模块，**看起来有点像 PHP**：
 
-```html
-<html><body>
-<p id="output"></p>
-<script>
-require('fs').readdir('.', function (err, files) {
-  var result = ''
-  files.forEach(function (filename) { result += filename + '<br/>' } )
-  document.getElementById('output').innerHTML = result
-});
-</script>
-</body></html>
+```html {5-10}
+<html>
+  <body>
+    <p id="output"></p>
+    <script>
+      require('fs').readdir('.', function (err, files) {
+        var result = ''
+        files.forEach(function (filename) { result += filename + '<br/>' } )
+        document.getElementById('output').innerHTML = result
+      });
+    </script>
+  </body>
+</html>
 ```
 
 赵成饶有兴趣地加入了，进来后发现 node-webkit 一个用户也没有，但这也给了他自由发挥的机会，**毕竟搞砸了也没关系**。
@@ -50,7 +52,7 @@ require('fs').readdir('.', function (err, files) {
 **用户才是一个开源框架项目生存下去的意义**，想明白这点后，赵成开始了推广之路，主要是这两点：
 
 1. **让 node-webkit 变得易用**：编写测试用例，让用户快速上手；在 GitHub Issue 上修复 Bug Report，回答各种各样的问题等。
-2. **让更多人知道 node-webkit**：使用 Google group，这是一个 Google 提供的在线讨论平台，允许用户创建和参与讨论组，有点类似于在线版的微信群聊，赵成会这里在[发布新版本公告](https://groups.google.com/g/nodejs/c/yFiEUM3TnMs/m/KW9qxv7X0rkJ)，回答问题，和别人撕逼；参加技术会议，比如 [JSConf China](https://jsconf.cn/) 
+2. **让更多人知道 node-webkit**：使用 Google Group，这是一个 Google 提供的在线讨论平台，允许用户创建和参与讨论组，有点类似于在线版的微信群聊，赵成会这里在[发布新版本公告](https://groups.google.com/g/nodejs/c/yFiEUM3TnMs/m/KW9qxv7X0rkJ)，回答问题，和别人撕逼；参加技术会议，比如 [JSConf China](https://jsconf.cn/) 
 
 努力不会说谎，第一个用户 [Chris Granger](https://github.com/ibdknox)，大胆地使用 node-webkit 来开发 [Light Table 编辑器](https://github.com/LightTable/LightTable?tab=readme-ov-file)，这是一个可以实时计算代码结果的 IDE，这直接给 node-webkit 带来了一波**泼天的流量**，从此 node-webkit 声名鹊起，走上正轨。
 
