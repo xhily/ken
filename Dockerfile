@@ -86,7 +86,6 @@ COPY --chown=nodejs:nodejs docs-class ./docs-class
 COPY --chown=nodejs:nodejs docs-english ./docs-english
 COPY --chown=nodejs:nodejs docs-tech ./docs-tech
 COPY --chown=nodejs:nodejs blog ./blog
-COPY --chown=nodejs:nodejs blog-weekly ./blog-weekly
 COPY --chown=nodejs:nodejs i18n ./i18n
 COPY --chown=nodejs:nodejs author.yaml ./
 COPY --chown=nodejs:nodejs docusaurus.config.ts ./
