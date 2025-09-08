@@ -33,7 +33,7 @@ const CONTENT_CONFIG = {
 const NAVBAR_ITEMS: PresetClassic.ThemeConfig['navbar']['items'] = [
   { to: 'technique', label: '🦄 知识库' },
   { to: 'blog', label: '🌌 文章' },
-  { to: 'class', label: '🐻‍❄️ 课程' },
+  // { to: 'class', label: '🐻‍❄️ 课程' },
   { to: 'english', label: '🐳 英语' },
   { to: 'read', label: '🦋 阅读' },
   {
